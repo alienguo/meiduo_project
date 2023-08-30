@@ -9,7 +9,7 @@ from django.db import models
 #     password = models.CharField(max_length=20)
 #     mobile = models.CharField(max_length=11, unique=True)
 
-# 2.djang自带用户模型
+# 2.django自带用户模型
 # 有密码的加密和密码的验证
 # from django.contrib.auth.models import User
 from django.contrib.auth.models import AbstractUser
