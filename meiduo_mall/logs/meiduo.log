@@ -497,3 +497,52 @@ INFO 2023-08-31 15:56:37,311 basehttp 161 "GET /mobiles/18211111112/count/ HTTP/
 INFO 2023-08-31 15:56:37,466 basehttp 161 "POST /register/ HTTP/1.1" 200 27
 WARNING 2023-08-31 15:56:37,690 log 224 Not Found: /carts/simple/
 WARNING 2023-08-31 15:56:37,690 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 2540
+INFO 2023-08-31 22:41:20,155 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-08-31 22:41:21,661 basehttp 212 "GET /image_code/123/ HTTP/1.1" 200 3017
+INFO 2023-08-31 22:41:29,910 basehttp 212 "GET /image_code/123 HTTP/1.1" 301 0
+WARNING 2023-08-31 22:41:33,461 log 241 Not Found: /
+WARNING 2023-08-31 22:41:33,461 basehttp 212 "GET / HTTP/1.1" 404 2769
+WARNING 2023-08-31 22:41:42,828 log 241 Not Found: /carts/simple/
+WARNING 2023-08-31 22:41:42,829 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 2826
+WARNING 2023-08-31 22:41:44,381 log 241 Not Found: /image_codes/9c485cc1-98f8-4e90-a01e-52943b1e2775/
+WARNING 2023-08-31 22:41:44,381 basehttp 212 "GET /image_codes/9c485cc1-98f8-4e90-a01e-52943b1e2775/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:46,611 log 241 Not Found: /image_codes/21a0c0e6-34d8-4abe-83e9-092eb2f64df9/
+WARNING 2023-08-31 22:41:46,611 basehttp 212 "GET /image_codes/21a0c0e6-34d8-4abe-83e9-092eb2f64df9/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:47,136 log 241 Not Found: /image_codes/cd33c963-7de8-4ccd-9cc9-b70041b9e481/
+WARNING 2023-08-31 22:41:47,136 basehttp 212 "GET /image_codes/cd33c963-7de8-4ccd-9cc9-b70041b9e481/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:47,306 log 241 Not Found: /image_codes/4f752b5b-355c-4014-a84c-d00e1914a67d/
+WARNING 2023-08-31 22:41:47,306 basehttp 212 "GET /image_codes/4f752b5b-355c-4014-a84c-d00e1914a67d/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:47,557 log 241 Not Found: /image_codes/283c6a2b-06d6-470d-9818-4c3b0d4b66b7/
+WARNING 2023-08-31 22:41:47,558 basehttp 212 "GET /image_codes/283c6a2b-06d6-470d-9818-4c3b0d4b66b7/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:47,740 log 241 Not Found: /image_codes/b4e1556a-fb91-4f7c-b8cf-9ee25ca598e0/
+WARNING 2023-08-31 22:41:47,741 basehttp 212 "GET /image_codes/b4e1556a-fb91-4f7c-b8cf-9ee25ca598e0/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:47,914 log 241 Not Found: /image_codes/395636f4-fc27-4eba-b850-ce220b30aea0/
+WARNING 2023-08-31 22:41:47,915 basehttp 212 "GET /image_codes/395636f4-fc27-4eba-b850-ce220b30aea0/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:48,099 log 241 Not Found: /image_codes/3bebc005-15b5-4fe1-91cf-45f0d3ef2e29/
+WARNING 2023-08-31 22:41:48,099 basehttp 212 "GET /image_codes/3bebc005-15b5-4fe1-91cf-45f0d3ef2e29/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:48,279 log 241 Not Found: /image_codes/a3644ad2-24ba-4bd7-a623-79a3a27b6091/
+WARNING 2023-08-31 22:41:48,280 basehttp 212 "GET /image_codes/a3644ad2-24ba-4bd7-a623-79a3a27b6091/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:48,466 log 241 Not Found: /image_codes/0e3f328e-db75-4553-8316-2ca3d1a2935f/
+WARNING 2023-08-31 22:41:48,466 basehttp 212 "GET /image_codes/0e3f328e-db75-4553-8316-2ca3d1a2935f/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:48,636 log 241 Not Found: /image_codes/c457b1c0-d959-4036-bd16-d4294821e7fe/
+WARNING 2023-08-31 22:41:48,637 basehttp 212 "GET /image_codes/c457b1c0-d959-4036-bd16-d4294821e7fe/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:49,649 log 241 Not Found: /image_codes/b98450fe-04da-4132-9943-635423b0b19d/
+WARNING 2023-08-31 22:41:49,650 basehttp 212 "GET /image_codes/b98450fe-04da-4132-9943-635423b0b19d/ HTTP/1.1" 404 2934
+WARNING 2023-08-31 22:41:50,012 log 241 Not Found: /image_codes/0c34dd70-0150-4789-919c-4485fde90123/
+WARNING 2023-08-31 22:41:50,012 basehttp 212 "GET /image_codes/0c34dd70-0150-4789-919c-4485fde90123/ HTTP/1.1" 404 2934
+INFO 2023-08-31 22:44:50,841 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\urls.py changed, reloading.
+INFO 2023-08-31 22:44:51,611 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-08-31 22:46:46,852 log 241 Not Found: /carts/simple/
+WARNING 2023-08-31 22:46:46,853 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 2827
+INFO 2023-08-31 22:46:58,489 basehttp 212 "GET /image_codes/1f58ae9d-2a94-4d23-8ccf-29276c3f4af6/ HTTP/1.1" 200 3525
+INFO 2023-08-31 22:46:59,501 basehttp 212 "GET /image_codes/35cdef94-80ef-4bd8-a102-b6f03fcb006e/ HTTP/1.1" 200 3198
+INFO 2023-08-31 22:47:00,431 basehttp 212 "GET /image_codes/7753d6a5-b3ce-4d0f-80f5-d7d8e2686df2/ HTTP/1.1" 200 3378
+INFO 2023-08-31 22:47:01,174 basehttp 212 "GET /image_codes/5d2fe9b1-f699-4dec-afda-87e53d11fc49/ HTTP/1.1" 200 3088
+INFO 2023-08-31 22:47:01,672 basehttp 212 "GET /image_codes/9c9624e5-2ba3-42b5-9bcf-bee5c175e8ae/ HTTP/1.1" 200 3473
+INFO 2023-08-31 22:47:02,057 basehttp 212 "GET /image_codes/8b46e022-bb35-4d49-82a9-c8a19f0e5160/ HTTP/1.1" 200 3362
+INFO 2023-08-31 22:47:02,345 basehttp 212 "GET /image_codes/44491154-daf7-44b4-93ee-cd3bc3c1cd17/ HTTP/1.1" 200 3291
+INFO 2023-08-31 22:47:02,713 basehttp 212 "GET /image_codes/c7947e93-ad8a-4684-9e45-ef22742d6190/ HTTP/1.1" 200 3405
+INFO 2023-08-31 22:47:03,003 basehttp 212 "GET /image_codes/c6d79bb5-532c-4926-b91c-97a33ada95a8/ HTTP/1.1" 200 3734
+INFO 2023-08-31 22:47:03,176 basehttp 212 "GET /image_codes/479ba78b-9ef3-4511-9345-ec2738f03abf/ HTTP/1.1" 200 3263
+INFO 2023-08-31 22:47:03,340 basehttp 212 "GET /image_codes/4808eda4-ce4c-4f05-b1d5-506277515de4/ HTTP/1.1" 200 3369
+INFO 2023-08-31 22:47:03,510 basehttp 212 "GET /image_codes/2bfaef6b-890a-42e0-a18a-24a1f7edd7bc/ HTTP/1.1" 200 2866
