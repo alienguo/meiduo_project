@@ -153,3 +153,339 @@ INFO 2023-08-31 11:06:09,860 autoreload 636 Watching for file changes with StatR
 INFO 2023-08-31 11:06:12,773 basehttp 161 "GET /mobiles/13856541252/count/ HTTP/1.1" 200 39
 WARNING 2023-08-31 11:06:20,167 log 224 Not Found: /mobiles/1385654122/count/
 WARNING 2023-08-31 11:06:20,168 basehttp 161 "GET /mobiles/1385654122/count/ HTTP/1.1" 404 2414
+INFO 2023-08-31 15:07:12,616 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:08:28,982 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 15:08:29,541 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:08:37,645 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:09:07,120 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:09:12,817 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:09:44,431 basehttp 161 "POST /register/ HTTP/1.1" 200 75
+INFO 2023-08-31 15:09:53,053 basehttp 161 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-08-31 15:10:02,255 basehttp 161 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-08-31 15:10:11,923 basehttp 161 "POST /register/ HTTP/1.1" 200 75
+INFO 2023-08-31 15:10:20,656 basehttp 161 "POST /register/ HTTP/1.1" 200 75
+INFO 2023-08-31 15:10:43,585 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:10:44,163 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:10:52,969 basehttp 161 "POST /register/ HTTP/1.1" 200 75
+INFO 2023-08-31 15:10:58,640 basehttp 161 "POST /register/ HTTP/1.1" 200 75
+INFO 2023-08-31 15:11:45,294 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:11:45,832 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:11:50,188 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:14:03,891 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:14:04,567 autoreload 636 Watching for file changes with StatReloader
+ERROR 2023-08-31 15:14:06,572 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 66, in post
+    User.objects.create(username=username, password=password, mobile=mobile)
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+ERROR 2023-08-31 15:14:06,579 basehttp 161 "POST /register/ HTTP/1.1" 500 196112
+INFO 2023-08-31 15:16:49,056 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:17:04,908 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:17:30,179 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:17:45,302 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:18:37,430 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:18:37,996 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:18:53,904 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:19:38,027 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:19:38,593 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:19:40,624 basehttp 161 "POST /register/ HTTP/1.1" 200 81
+ERROR 2023-08-31 15:19:50,418 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 66, in post
+    User.objects.create(username=username, password=password, mobile=mobile)
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+ERROR 2023-08-31 15:19:50,429 basehttp 161 "POST /register/ HTTP/1.1" 500 196119
+INFO 2023-08-31 15:23:56,878 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:23:57,452 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:23:59,819 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:24:21,108 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:24:32,845 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:24:33,453 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:24:33,722 basehttp 161 "POST /register/ HTTP/1.1" 200 81
+INFO 2023-08-31 15:24:46,197 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:24:46,785 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:24:49,394 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:24:55,692 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:25:34,533 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:25:35,163 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:25:35,890 basehttp 161 "POST /register/ HTTP/1.1" 200 51
+INFO 2023-08-31 15:26:04,309 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:26:04,916 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:26:06,358 basehttp 161 "POST /register/ HTTP/1.1" 200 81
+INFO 2023-08-31 15:29:47,340 autoreload 636 Watching for file changes with StatReloader
+ERROR 2023-08-31 15:29:59,880 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    User.objects.create_user(username=username, password=password, mobile=mobile)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\models.py", line 152, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\models.py", line 146, in _create_user
+    user.save(using=self._db)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+ERROR 2023-08-31 15:29:59,887 basehttp 161 "POST /register/ HTTP/1.1" 500 198760
+ERROR 2023-08-31 15:30:41,296 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    User.objects.create_user(username=username, password=password, mobile=mobile)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\models.py", line 152, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\models.py", line 146, in _create_user
+    user.save(using=self._db)
+  File "D:\Python310\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 726, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 763, in save_base
+    updated = self._save_table(
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\Python310\lib\site-packages\django\db\models\base.py", line 906, in _do_insert
+    return manager._insert(
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1410, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "D:\Python310\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\Python310\lib\site-packages\MySQLdb\connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'daguo' for key 'tb_users.username'")
+ERROR 2023-08-31 15:30:41,314 basehttp 161 "POST /register/ HTTP/1.1" 500 198760
+INFO 2023-08-31 15:31:19,882 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:31:26,387 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 15:31:27,021 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 15:31:29,675 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+INFO 2023-08-31 15:40:23,543 basehttp 161 "GET /usernames/daguo01/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 15:40:42,201 basehttp 161 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 15:40:49,212 basehttp 161 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-08-31 15:40:49,215 basehttp 161 "GET /usernames/daguo01/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 15:40:49,218 basehttp 161 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 15:40:49,388 basehttp 161 "POST /register/ HTTP/1.1" 200 27
+WARNING 2023-08-31 15:40:49,843 log 224 Not Found: /carts/simple/
+WARNING 2023-08-31 15:40:49,844 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 2540
