@@ -27,3 +27,17 @@ INFO 2023-08-30 23:07:33,165 autoreload 636 Watching for file changes with StatR
 INFO 2023-08-30 23:09:26,510 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\apps.py changed, reloading.
 INFO 2023-08-30 23:09:27,081 autoreload 636 Watching for file changes with StatReloader
 INFO 2023-08-30 23:10:15,993 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-30 23:36:37,943 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-30 23:36:40,395 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2023-08-31 09:38:57,424 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 09:40:46,297 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 09:41:20,585 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 09:41:20,586 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2131
+INFO 2023-08-31 09:41:52,540 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 09:42:05,445 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 09:42:08,448 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 09:42:08,448 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2211
+WARNING 2023-08-31 09:42:34,049 log 224 Not Found: /usernames/user/count/
+WARNING 2023-08-31 09:42:34,049 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 404 2211
+INFO 2023-08-31 09:42:56,629 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 09:42:59,991 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 200 39
