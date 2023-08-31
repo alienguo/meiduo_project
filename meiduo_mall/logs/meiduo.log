@@ -47,3 +47,105 @@ INFO 2023-08-31 09:48:54,327 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 
 INFO 2023-08-31 09:54:39,681 autoreload 636 Watching for file changes with StatReloader
 WARNING 2023-08-31 09:54:44,858 log 224 Not Found: /usernames/user/count/
 WARNING 2023-08-31 09:54:44,859 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 404 2219
+INFO 2023-08-31 10:09:52,652 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:09:53,190 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:11:00,322 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:11:00,881 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:12:11,047 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:12:11,622 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:13:05,360 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:13:05,941 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:16:38,313 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:20:44,145 log 224 Not Found: /usernames/daguo/count/
+WARNING 2023-08-31 10:20:44,146 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 404 2222
+INFO 2023-08-31 10:21:06,750 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:21:07,386 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:21:08,936 log 224 Not Found: /usernames/daguo/count/
+WARNING 2023-08-31 10:21:08,936 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 404 2222
+WARNING 2023-08-31 10:21:16,020 log 224 Not Found: /usernames/daguo2/count/
+WARNING 2023-08-31 10:21:16,020 basehttp 161 "GET /usernames/daguo2/count/ HTTP/1.1" 404 2225
+WARNING 2023-08-31 10:21:43,270 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 10:21:43,271 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2219
+WARNING 2023-08-31 10:23:38,901 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 10:23:38,902 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2219
+INFO 2023-08-31 10:23:44,046 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-08-31 10:23:44,653 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:23:58,222 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:24:01,526 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 10:24:01,527 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2210
+INFO 2023-08-31 10:24:22,424 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:24:23,053 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:24:24,703 log 224 Not Found: /username/daguo/count/
+WARNING 2023-08-31 10:24:24,704 basehttp 161 "GET /username/daguo/count/ HTTP/1.1" 404 2210
+WARNING 2023-08-31 10:24:33,614 log 224 Not Found: /username/daguo2/count/
+WARNING 2023-08-31 10:24:33,615 basehttp 161 "GET /username/daguo2/count/ HTTP/1.1" 404 2213
+INFO 2023-08-31 10:24:56,430 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 10:24:57,017 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:24:59,627 log 224 Not Found: /username/daguo2/count/
+WARNING 2023-08-31 10:24:59,627 basehttp 161 "GET /username/daguo2/count/ HTTP/1.1" 404 2213
+WARNING 2023-08-31 10:25:02,575 log 224 Not Found: /username/dagu/count/
+WARNING 2023-08-31 10:25:02,576 basehttp 161 "GET /username/dagu/count/ HTTP/1.1" 404 2207
+WARNING 2023-08-31 10:25:42,648 log 224 Not Found: /
+WARNING 2023-08-31 10:25:42,649 basehttp 161 "GET / HTTP/1.1" 404 2129
+INFO 2023-08-31 10:25:42,680 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:25:43,317 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:25:43,598 log 224 Not Found: /favicon.ico
+WARNING 2023-08-31 10:25:43,598 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2180
+INFO 2023-08-31 10:26:05,813 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+WARNING 2023-08-31 10:26:21,727 log 224 Not Found: /username/dagu0/count/
+WARNING 2023-08-31 10:26:21,727 basehttp 161 "GET /username/dagu0/count/ HTTP/1.1" 404 2210
+INFO 2023-08-31 10:26:53,341 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:27:01,223 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:27:12,101 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 10:27:12,674 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:27:20,219 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-08-31 10:27:20,759 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:27:24,622 log 224 Not Found: /usernames/daguo/count/
+WARNING 2023-08-31 10:27:24,624 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 404 2222
+WARNING 2023-08-31 10:27:28,041 log 224 Not Found: /usernames/daguo/count/
+WARNING 2023-08-31 10:27:28,041 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 404 2222
+INFO 2023-08-31 10:28:31,241 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\utils\converters.py changed, reloading.
+INFO 2023-08-31 10:28:31,848 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:28:35,206 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:28:43,302 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+WARNING 2023-08-31 10:28:47,400 log 224 Not Found: /usernames/dago/count/
+WARNING 2023-08-31 10:28:47,401 basehttp 161 "GET /usernames/dago/count/ HTTP/1.1" 404 2219
+INFO 2023-08-31 10:28:52,293 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:29:22,696 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 10:29:23,232 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:35:49,601 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:35:50,171 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:44:29,619 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:44:36,866 log 224 Not Found: /image_codes/bea83738-fdb0-425c-8a0c-e44aa411bbce/
+WARNING 2023-08-31 10:44:36,866 basehttp 161 "GET /image_codes/bea83738-fdb0-425c-8a0c-e44aa411bbce/ HTTP/1.1" 404 2309
+WARNING 2023-08-31 10:45:26,486 log 224 Not Found: /
+WARNING 2023-08-31 10:45:26,487 basehttp 161 "GET / HTTP/1.1" 404 2144
+WARNING 2023-08-31 10:45:26,620 log 224 Not Found: /favicon.ico
+WARNING 2023-08-31 10:45:26,621 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2195
+INFO 2023-08-31 10:46:01,688 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:48:55,732 log 224 Not Found: /carts/simple/
+WARNING 2023-08-31 10:48:55,732 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 2201
+WARNING 2023-08-31 10:49:07,271 log 224 Not Found: /image_codes/e4466bf4-08be-4efd-94c0-8ca85963344f/
+WARNING 2023-08-31 10:49:07,273 basehttp 161 "GET /image_codes/e4466bf4-08be-4efd-94c0-8ca85963344f/ HTTP/1.1" 404 2309
+WARNING 2023-08-31 10:49:59,042 log 224 Not Found: /image_codes/15bcd242-73fe-4a3e-8526-40c9c9086318/
+WARNING 2023-08-31 10:49:59,042 basehttp 161 "GET /image_codes/15bcd242-73fe-4a3e-8526-40c9c9086318/ HTTP/1.1" 404 2309
+INFO 2023-08-31 10:50:16,099 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:50:52,564 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-08-31 10:50:53,157 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 10:50:55,427 log 224 Not Found: /image_codes/25ef87c1-1115-498e-9e19-7d63d5cca630/
+WARNING 2023-08-31 10:50:55,428 basehttp 161 "GET /image_codes/25ef87c1-1115-498e-9e19-7d63d5cca630/ HTTP/1.1" 404 2309
+INFO 2023-08-31 10:50:59,117 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:02,322 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:28,335 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 10:51:32,785 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+WARNING 2023-08-31 10:51:33,226 log 224 Not Found: /carts/simple/
+WARNING 2023-08-31 10:51:33,227 basehttp 161 "GET /carts/simple/ HTTP/1.1" 404 2201
+WARNING 2023-08-31 10:51:38,360 log 224 Not Found: /image_codes/3a3ddcdc-29f9-4059-8cc1-a10e5b0e8c4f/
+WARNING 2023-08-31 10:51:38,360 basehttp 161 "GET /image_codes/3a3ddcdc-29f9-4059-8cc1-a10e5b0e8c4f/ HTTP/1.1" 404 2309
+INFO 2023-08-31 10:51:47,883 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:50,344 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:51,922 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:53,026 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:53,946 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:54,769 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 10:51:55,036 basehttp 161 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
