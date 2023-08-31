@@ -41,3 +41,9 @@ WARNING 2023-08-31 09:42:34,049 log 224 Not Found: /usernames/user/count/
 WARNING 2023-08-31 09:42:34,049 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 404 2211
 INFO 2023-08-31 09:42:56,629 autoreload 636 Watching for file changes with StatReloader
 INFO 2023-08-31 09:42:59,991 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 09:48:45,346 autoreload 250 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-08-31 09:48:45,918 autoreload 636 Watching for file changes with StatReloader
+INFO 2023-08-31 09:48:54,327 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 200 75
+INFO 2023-08-31 09:54:39,681 autoreload 636 Watching for file changes with StatReloader
+WARNING 2023-08-31 09:54:44,858 log 224 Not Found: /usernames/user/count/
+WARNING 2023-08-31 09:54:44,859 basehttp 161 "GET /usernames/user/count/ HTTP/1.1" 404 2219
