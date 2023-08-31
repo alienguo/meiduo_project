@@ -18,11 +18,12 @@ from django.urls import path, include
 
 
 # 注册转换器
-from utils.converters import UsernameConverter, MobileConverter
+from utils.converters import UsernameConverter, MobileConverter, UuidConverter
 from django.urls import register_converter
 
 register_converter(UsernameConverter, 'username')
 register_converter(MobileConverter, 'mobile')
+register_converter(UuidConverter, 'uuid')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

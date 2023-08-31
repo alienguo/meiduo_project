@@ -13,3 +13,10 @@ class MobileConverter:
 
     def to_python(self, value):
         return value
+
+
+class UuidConverter:
+    regex = r'[\w-]+'
+
+    def to_python(self, value):
+        return value
