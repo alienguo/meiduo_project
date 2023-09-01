@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
@@ -42,3 +42,73 @@ class ImageCodeView(View):
         # content_type (MIME类型)
         # 例如：图片  image/jpeg, image/png, image/gif
         return HttpResponse(image, content_type='image/jpeg')
+
+
+"""
+1.注册
+我们提供免费开发测试，【免费开发测试前，请先 注册 成为平台用户】。
+
+2.绑定测试号
+免费开发测试需要在"控制台—管理—号码管理—测试号码"绑定 测试号码 。
+
+3.开发测试
+开发测试过程请参考 短信业务接口 及 Demo示例 / sdk参考（新版）示例。Java环境安装请参考"新版sdk"。
+
+4.免费开发测试注意事项
+    4.1.免费开发测试需要使用到"控制台首页"，开发者主账户相关信息，如主账号、应用ID等。
+    
+    4.2.免费开发测试使用的模板ID为1，具体内容：【云通讯】您的验证码是{1}，请于{2}分钟内正确输入。其中{1}和{2}为短信模板参数。
+    
+    4.3.测试成功后，即可申请短信模板并 正式使用 。
+
+"""
+
+"""
+/sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c
+
+1.获取请求参数
+2.验证参数
+3.验证图片验证码
+4.生成短信验证码
+5.保存短信验证码
+6.发送短信验证码
+7.返回响应
+"""
+
+
+class SmsCodeView(View):
+
+    def get(self, request, mobile):
+        # 1.获取请求参数
+        image_code = request.GET.get('image_code')
+        uuid = request.GET.get('image_code_id')
+
+        # 2.验证参数
+        if not all([image_code, uuid]):
+            return JsonResponse({'code': 400, 'errmsg': '参数不全'})
+
+        # 3.验证图片验证码
+        # 3.1 链接redis，获取redis数据
+        from django_redis import get_redis_connection
+        redis_cli = get_redis_connection('code')
+        redis_image_code = redis_cli.get(uuid)
+        if redis_image_code is None:
+            return JsonResponse({'code': 400, 'errmsg': '图片验证码已过期'})
+        # 3.2 对比验证码
+        if redis_image_code.decode().lower() != image_code.lower():
+            return JsonResponse({'code': 400, 'errmsg': '图片验证码错误'})
+
+        # 4.生成短信验证码
+        from random import randint
+        sms_code = '%04d' % randint(0, 9999)
+        # 5.保存短信验证码
+        redis_cli.setex(mobile, 300, sms_code)
+        # 6.发送短信验证码
+        from libs.ronglian_sms_sdk.SmsSDK import SmsSDK
+        accId = '2c94811c8a27cf2d018a4c1f603a0e77'
+        accToken = '0219af12249c4869871525c79b97ebe4'
+        appId = '2c94811c8a27cf2d018a4c1f618f0e7e'
+        sdk = SmsSDK(accId, accToken, appId)
+        sdk.sendMessage('1', mobile, (sms_code, '5'))
+        # 7.返回响应
+        return JsonResponse({'code': 0, 'errmsg': 'ok'})

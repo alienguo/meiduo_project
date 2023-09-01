@@ -564,3 +564,280 @@ INFO 2023-08-31 22:56:39,406 basehttp 212 "GET /image_codes/4e097c43-1d34-41d2-a
 INFO 2023-08-31 22:56:39,558 basehttp 212 "GET /image_codes/2fa09686-7427-4464-a03a-9066e6ddd39e/ HTTP/1.1" 200 3164
 INFO 2023-08-31 22:56:39,709 basehttp 212 "GET /image_codes/4fd42c72-23e0-488e-b893-7433c8409e74/ HTTP/1.1" 200 3319
 INFO 2023-08-31 22:56:39,881 basehttp 212 "GET /image_codes/380936b9-6449-4f5a-a863-15591a2bd7a0/ HTTP/1.1" 200 3049
+INFO 2023-08-31 23:08:19,112 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-08-31 23:08:24,651 basehttp 212 "GET /image_codes/e6893eed-aff4-4bc7-97ff-399a3506b582/ HTTP/1.1" 200 2939
+INFO 2023-08-31 23:08:46,042 basehttp 212 "GET /usernames/admin/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 23:08:57,475 basehttp 212 "GET /mobiles/18211111113/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 23:09:00,546 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-08-31 23:09:00,548 basehttp 212 "GET /usernames/admin/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 23:09:00,550 basehttp 212 "GET /mobiles/18211111113/count/ HTTP/1.1" 200 39
+INFO 2023-08-31 23:09:00,901 basehttp 212 "POST /register/ HTTP/1.1" 200 27
+WARNING 2023-08-31 23:09:01,106 log 241 Not Found: /carts/simple/
+WARNING 2023-08-31 23:09:01,108 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 2832
+INFO 2023-09-01 14:42:34,958 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 14:42:41,664 basehttp 212 "GET /image_codes/1b2cc23b-c933-4fe7-9a6b-92874c855e0a/ HTTP/1.1" 200 2755
+INFO 2023-09-01 14:42:48,974 basehttp 212 "GET /mobiles/18211111112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 14:43:12,062 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 14:43:20,505 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:20,674 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:20,675 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:25,333 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:25,350 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:25,351 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:27,739 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:27,766 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:27,767 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:28,535 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:28,554 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:28,556 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:28,700 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:28,719 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:28,720 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:28,877 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:28,895 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:28,895 basehttp 212 "GET /sms_codes/18283906566/?image_code=JLLV&image_code_id=1b2cc23b-c933-4fe7-9a6b-92874c855e0a HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:34,475 basehttp 212 "GET /image_codes/c53accbf-4956-4e65-a75e-c599d63d909c/ HTTP/1.1" 200 3377
+INFO 2023-09-01 14:43:37,383 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 14:43:43,627 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:43,643 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:43,644 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:45,936 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:45,953 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:45,955 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,108 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,125 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,126 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,266 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,284 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,285 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,436 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,453 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,454 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,597 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,614 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,615 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,784 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,799 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,800 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:46,961 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:46,979 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:46,980 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:47,135 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:47,155 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:47,156 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:47,270 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:47,289 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:47,290 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:47,472 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:47,491 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:47,492 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:47,578 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:47,595 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:47,596 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:47,762 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:47,782 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:47,783 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:48,029 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:48,044 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:48,045 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:43:48,210 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 14:43:48,231 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view apps.verifications.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-09-01 14:43:48,231 basehttp 212 "GET /sms_codes/18283906566/?image_code=CSS8&image_code_id=c53accbf-4956-4e65-a75e-c599d63d909c HTTP/1.1" 500 67347
+INFO 2023-09-01 14:51:24,965 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 14:51:25,958 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 14:54:24,737 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 14:54:25,626 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:00:58,705 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 15:00:59,542 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:01:12,167 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:01:25,455 basehttp 212 "GET /image_codes/26a227f4-878b-44fe-8a95-ef808fbae4a7/ HTTP/1.1" 200 3047
+INFO 2023-09-01 15:01:32,570 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:01:45,241 basehttp 212 "GET /sms_codes/18283906566/?image_code=SZ4S&image_code_id=26a227f4-878b-44fe-8a95-ef808fbae4a7 HTTP/1.1" 200 69
+INFO 2023-09-01 15:01:45,243 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:07:21,772 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:07:29,337 basehttp 212 "GET /image_codes/3b04a57c-3280-487b-9a69-a1e02efa8834/ HTTP/1.1" 200 2644
+INFO 2023-09-01 15:07:32,182 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:07:34,136 basehttp 212 "GET /image_codes/c061326f-401b-442f-a89f-0b99048d3602/ HTTP/1.1" 200 3282
+INFO 2023-09-01 15:07:40,624 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:08:10,469 basehttp 212 "GET /sms_codes/18283906566/?image_code=CZTB&image_code_id=c061326f-401b-442f-a89f-0b99048d3602 HTTP/1.1" 200 69
+INFO 2023-09-01 15:09:47,277 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:10:51,181 basehttp 212 "GET /image_codes/d009b07b-d747-475b-ac5f-2671cb3d828e/ HTTP/1.1" 200 3045
+INFO 2023-09-01 15:10:52,157 basehttp 212 "GET /image_codes/1d2d9053-dbfa-434f-ade4-0ea8affb5c56/ HTTP/1.1" 200 3361
+INFO 2023-09-01 15:10:54,530 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:11:00,286 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:14:25,639 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 15:14:27,290 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:16:40,824 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:16:45,315 basehttp 212 "GET /image_codes/4cbc31bf-ddb3-4808-9e4e-f4c05755cbbf/ HTTP/1.1" 200 3026
+INFO 2023-09-01 15:16:49,310 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:16:49,335 basehttp 212 "GET /image_codes/ee9989f6-0aa5-41ae-b259-c4126af72140/ HTTP/1.1" 200 3420
+INFO 2023-09-01 15:16:56,278 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:16:56,800 basehttp 212 "GET /sms_codes/18283906566/?image_code=MZ6A&image_code_id=ee9989f6-0aa5-41ae-b259-c4126af72140 HTTP/1.1" 200 27
