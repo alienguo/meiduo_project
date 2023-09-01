@@ -841,3 +841,24 @@ INFO 2023-09-01 15:16:49,310 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/
 INFO 2023-09-01 15:16:49,335 basehttp 212 "GET /image_codes/ee9989f6-0aa5-41ae-b259-c4126af72140/ HTTP/1.1" 200 3420
 INFO 2023-09-01 15:16:56,278 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
 INFO 2023-09-01 15:16:56,800 basehttp 212 "GET /sms_codes/18283906566/?image_code=MZ6A&image_code_id=ee9989f6-0aa5-41ae-b259-c4126af72140 HTTP/1.1" 200 27
+INFO 2023-09-01 15:42:06,090 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 15:42:09,265 basehttp 212 "GET /image_codes/d69dfefc-77e9-4816-9df2-b62bf472fdbc/ HTTP/1.1" 200 3257
+INFO 2023-09-01 15:42:12,630 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:42:18,480 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 15:42:18,917 basehttp 212 "GET /sms_codes/18283906566/?image_code=YKP6&image_code_id=d69dfefc-77e9-4816-9df2-b62bf472fdbc HTTP/1.1" 200 27
+INFO 2023-09-01 15:45:31,198 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 15:45:32,081 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:01:57,583 basehttp 212 "GET /image_codes/1fb2ec76-c843-451f-8138-0b0ad2e9a74c/ HTTP/1.1" 200 3017
+INFO 2023-09-01 16:04:12,319 basehttp 212 "GET /image_codes/ffdd9909-eda2-427b-9fb4-934e7d2eecf4/ HTTP/1.1" 200 3363
+INFO 2023-09-01 16:04:57,370 basehttp 212 "GET /image_codes/bace2d35-5585-46b8-a8e7-b308d5b605e2/ HTTP/1.1" 200 3058
+INFO 2023-09-01 16:05:03,300 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:05:09,761 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:05:09,764 basehttp 212 "GET /sms_codes/18283906565/?image_code=Hqvm&image_code_id=bace2d35-5585-46b8-a8e7-b308d5b605e2 HTTP/1.1" 200 69
+INFO 2023-09-01 16:05:11,562 basehttp 212 "GET /image_codes/84899319-5b6e-46a0-a147-16f0a5cc8279/ HTTP/1.1" 200 3022
+INFO 2023-09-01 16:05:20,038 basehttp 212 "GET /image_codes/7ac2be94-34f4-4e2a-98fb-7746b2b22aeb/ HTTP/1.1" 200 2947
+INFO 2023-09-01 16:05:26,527 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:05:31,737 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:05:32,136 basehttp 212 "GET /sms_codes/18283906565/?image_code=4ZNE&image_code_id=7ac2be94-34f4-4e2a-98fb-7746b2b22aeb HTTP/1.1" 200 27
+INFO 2023-09-01 16:05:39,496 basehttp 212 "GET /image_codes/dea418bf-17b3-4363-a161-ff5831aff940/ HTTP/1.1" 200 3074
+INFO 2023-09-01 16:05:41,473 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:05:45,722 basehttp 212 "GET /sms_codes/18283906565/?image_code=zvus&image_code_id=dea418bf-17b3-4363-a161-ff5831aff940 HTTP/1.1" 200 75
