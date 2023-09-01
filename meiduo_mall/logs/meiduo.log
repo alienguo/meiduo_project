@@ -862,3 +862,598 @@ INFO 2023-09-01 16:05:32,136 basehttp 212 "GET /sms_codes/18283906565/?image_cod
 INFO 2023-09-01 16:05:39,496 basehttp 212 "GET /image_codes/dea418bf-17b3-4363-a161-ff5831aff940/ HTTP/1.1" 200 3074
 INFO 2023-09-01 16:05:41,473 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
 INFO 2023-09-01 16:05:45,722 basehttp 212 "GET /sms_codes/18283906565/?image_code=zvus&image_code_id=dea418bf-17b3-4363-a161-ff5831aff940 HTTP/1.1" 200 75
+INFO 2023-09-01 16:05:45,724 basehttp 212 "GET /mobiles/18283906565/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:25:05,228 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:25:12,004 basehttp 212 "GET /image_codes/80d14368-f1af-4ee9-95e7-48102750dc21/ HTTP/1.1" 200 3364
+INFO 2023-09-01 16:25:17,446 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:25:30,236 basehttp 212 "GET /mobiles/18211111113/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:25:46,385 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:25:48,185 basehttp 212 "GET /image_codes/07b72587-06b2-4c17-b0ec-9d7b690287c6/ HTTP/1.1" 200 3312
+INFO 2023-09-01 16:25:57,326 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:25:57,881 basehttp 212 "GET /sms_codes/18283901112/?image_code=FKDR&image_code_id=07b72587-06b2-4c17-b0ec-9d7b690287c6 HTTP/1.1" 200 27
+INFO 2023-09-01 16:26:03,610 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:26:03,616 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:03,616 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:03,854 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:03,867 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:08,217 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:08,222 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:08,320 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:08,322 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:08,626 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:08,626 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:08,730 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:08,732 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:08,788 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:08,789 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:08,894 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:08,896 basehttp 212 "POST /register/ HTTP/1.1" 500 98241
+INFO 2023-09-01 16:26:08,942 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:08,947 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:09,043 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:09,045 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:09,108 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:09,108 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:09,209 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:09,211 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:09,743 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:09,745 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:09,844 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:09,846 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:09,956 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:09,960 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:10,057 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:10,059 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:10,153 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:10,155 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:10,250 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:10,252 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:11,940 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:11,941 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:12,040 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:12,043 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:12,236 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:12,239 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:12,339 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:12,341 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:12,404 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:12,407 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:12,506 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:12,508 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:12,576 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:12,577 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:12,678 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:12,680 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:12,755 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:12,760 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:12,868 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:12,872 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:12,961 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:12,963 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:13,069 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:13,071 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:13,606 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:13,610 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:13,710 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:13,712 basehttp 212 "POST /register/ HTTP/1.1" 500 98154
+INFO 2023-09-01 16:26:19,906 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:26:19,911 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:26:19,911 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 16:26:20,090 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "D:\Python310\lib\site-packages\asgiref\local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x0000026144844850> object has no attribute 'verify_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 69, in post
+    redis_cli = get_redis_connection('verify_code')
+  File "D:\Python310\lib\site-packages\django_redis\__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "D:\Python310\lib\site-packages\django\utils\connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'verify_code' doesn't exist.
+ERROR 2023-09-01 16:26:20,092 basehttp 212 "POST /register/ HTTP/1.1" 500 98419
+INFO 2023-09-01 16:26:48,231 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:27:03,630 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:31:42,779 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:31:51,833 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:31:51,844 basehttp 212 "GET /usernames/daguo03/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:31:51,847 basehttp 212 "GET /mobiles/18283901112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:31:51,907 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:32:19,519 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:24,152 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:24,226 basehttp 212 "GET /image_codes/51d6de73-bbb1-49be-8f81-dcc1d61ad5c1/ HTTP/1.1" 200 3409
+INFO 2023-09-01 16:32:30,784 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:31,258 basehttp 212 "GET /sms_codes/18283906566/?image_code=renb&image_code_id=51d6de73-bbb1-49be-8f81-dcc1d61ad5c1 HTTP/1.1" 200 27
+INFO 2023-09-01 16:32:43,707 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:32:43,710 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:43,710 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:43,772 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:32:57,281 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:32:57,283 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:57,285 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:57,341 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:32:59,273 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:32:59,276 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:59,276 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:32:59,353 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:33:55,764 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 16:33:56,541 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:36:11,955 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 16:36:12,867 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:36:15,234 basehttp 212 "GET /image_codes/2474d414-1a02-4e64-9756-7150b7b282f3/ HTTP/1.1" 200 3229
+INFO 2023-09-01 16:36:18,744 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:32,770 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:34,222 basehttp 212 "GET /image_codes/14da8089-8936-4465-8559-5b0075b7e72a/ HTTP/1.1" 200 3653
+INFO 2023-09-01 16:36:40,674 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:41,117 basehttp 212 "GET /sms_codes/18283906566/?image_code=DIQV&image_code_id=14da8089-8936-4465-8559-5b0075b7e72a HTTP/1.1" 200 27
+INFO 2023-09-01 16:36:50,288 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:36:50,291 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:50,292 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:50,356 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:36:58,287 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:36:58,288 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:58,290 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:36:58,347 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:37:19,755 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:37:23,239 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:37:23,293 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:37:23,295 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:37:25,951 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-01 16:37:25,956 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:37:25,960 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:39:11,611 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:39:11,611 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:39:19,099 basehttp 212 "GET /image_codes/978eccaa-5a92-4df4-a2b0-3ef5703d0df3/ HTTP/1.1" 200 3147
+INFO 2023-09-01 16:39:27,391 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:39:37,608 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:39:37,665 basehttp 212 "GET /image_codes/3eb6556e-3925-4ce4-8f9e-070bfd322d8a/ HTTP/1.1" 200 2929
+INFO 2023-09-01 16:39:44,212 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:39:44,773 basehttp 212 "GET /sms_codes/18283906566/?image_code=KR43&image_code_id=3eb6556e-3925-4ce4-8f9e-070bfd322d8a HTTP/1.1" 200 27
+INFO 2023-09-01 16:40:00,914 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:40:00,917 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:41:31,787 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:41:36,698 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 16:41:54,074 basehttp 212 "GET /image_codes/52f97aaa-e061-4452-8f67-694731b30875/ HTTP/1.1" 200 3254
+INFO 2023-09-01 16:42:00,187 basehttp 212 "GET /image_codes/76a1625d-ce71-4887-8ac9-a9fb2357cccc/ HTTP/1.1" 200 2918
+INFO 2023-09-01 16:42:16,756 basehttp 212 "GET /image_codes/b5d40b28-0b42-4379-bdc4-027bfda84ccc/ HTTP/1.1" 200 3665
+INFO 2023-09-01 16:42:18,668 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:42:31,245 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:42:31,661 basehttp 212 "GET /image_codes/22a35580-7b24-4fe4-9313-9915f744a36c/ HTTP/1.1" 200 2890
+INFO 2023-09-01 16:42:33,777 basehttp 212 "GET /image_codes/43fd625c-21d5-41ae-8c80-15d5b0ff1d4f/ HTTP/1.1" 200 3053
+INFO 2023-09-01 16:42:39,458 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:42:40,030 basehttp 212 "GET /sms_codes/18283906566/?image_code=EGAV&image_code_id=43fd625c-21d5-41ae-8c80-15d5b0ff1d4f HTTP/1.1" 200 27
+INFO 2023-09-01 16:42:51,016 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:42:51,019 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:43:11,435 basehttp 212 "POST /register/ HTTP/1.1" 200 27
+WARNING 2023-09-01 16:43:11,882 log 241 Not Found: /carts/simple/
+WARNING 2023-09-01 16:43:11,883 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3011
+INFO 2023-09-01 16:44:12,952 basehttp 212 "GET /image_codes/1b55f0d1-d716-47d6-b94e-abd1ff89f5aa/ HTTP/1.1" 200 2942
+INFO 2023-09-01 16:44:36,623 basehttp 212 "GET /usernames/daguo01/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:44:46,411 basehttp 212 "GET /mobiles/18211111112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:44:46,955 basehttp 212 "GET /image_codes/254b9d46-4248-4784-906a-08bee1382f7a/ HTTP/1.1" 200 3115
+INFO 2023-09-01 16:44:51,652 basehttp 212 "GET /mobiles/18211111112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:44:51,973 basehttp 212 "GET /sms_codes/18211111112/?image_code=otfl&image_code_id=254b9d46-4248-4784-906a-08bee1382f7a HTTP/1.1" 200 27
+INFO 2023-09-01 16:45:00,172 basehttp 212 "GET /usernames/daguo01/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:45:00,174 basehttp 212 "GET /mobiles/18211111112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:45:17,203 basehttp 212 "POST /register/ HTTP/1.1" 200 69
+INFO 2023-09-01 16:45:27,682 basehttp 212 "GET /usernames/daguo01/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:45:27,685 basehttp 212 "GET /mobiles/18211111112/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 16:45:32,683 basehttp 212 "POST /register/ HTTP/1.1" 200 27
+WARNING 2023-09-01 16:45:33,063 log 241 Not Found: /carts/simple/
+WARNING 2023-09-01 16:45:33,064 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3011
+INFO 2023-09-01 16:48:02,894 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-09-01 16:48:04,497 autoreload 668 Watching for file changes with StatReloader

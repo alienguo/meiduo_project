@@ -99,16 +99,17 @@ class SmsCodeView(View):
             return JsonResponse({'code': 400, 'errmsg': '图片验证码错误'})
 
         # 提取发送短信的标记，查看是否验证码还在有效期内
-        send_flag = redis_cli.get('send_flag_%s' % mobile)
+        redis_conn = get_redis_connection('verify_code')
+        send_flag = redis_conn.get('send_flag_%s' % mobile)
         if send_flag is not None:
             return JsonResponse({'code': 400, 'errmsg': '不要频繁发送短信'})
         # 4.生成短信验证码
         from random import randint
         sms_code = '%04d' % randint(0, 9999)
         # 5.保存短信验证码
-        redis_cli.setex(mobile, 300, sms_code)
+        redis_conn.setex(mobile, 300, sms_code)
         # 添加发送标记,有效期60s
-        redis_cli.setex('send_flag_%s' % mobile, 60, 1)
+        redis_conn.setex('send_flag_%s' % mobile, 60, 1)
 
         # 6.发送短信验证码
         from libs.ronglian_sms_sdk.SmsSDK import SmsSDK
