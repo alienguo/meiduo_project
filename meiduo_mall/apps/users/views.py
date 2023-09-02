@@ -175,5 +175,11 @@ from utils.views import LoginRequiredJSONMixin
 class CenterView(LoginRequiredJSONMixin, View):
 
     def get(self, request):
+        info_data = {
+            'username': request.user.username,   # request.user就是已经登录的用户信息
+            'email': request.user.email,
+            'mobile': request.user.mobile,
+            'email_active': request.user.email_active,
+        }
 
-        return JsonResponse({'code': 400, 'errmsg': 'ok'})
+        return JsonResponse({'code': 0, 'errmsg': 'ok', 'info_data': info_data})

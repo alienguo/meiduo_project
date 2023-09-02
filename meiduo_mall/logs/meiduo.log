@@ -1946,3 +1946,40 @@ INFO 2023-09-02 21:36:13,674 basehttp 212 "OPTIONS /oauth_callback/ HTTP/1.1" 20
 INFO 2023-09-02 21:36:20,627 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 200 27
 WARNING 2023-09-02 21:36:21,027 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 21:36:21,029 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+WARNING 2023-09-02 21:38:23,481 log 241 Not Found: /info/
+WARNING 2023-09-02 21:38:23,486 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:38:23,488 basehttp 212 "GET /info/ HTTP/1.1" 404 3774
+WARNING 2023-09-02 21:38:23,488 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3810
+INFO 2023-09-02 21:40:42,987 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2023-09-02 21:40:44,610 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:41:09,189 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2023-09-02 21:41:10,709 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:43:26,934 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-02 21:43:28,541 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:46:30,681 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 21:46:32,290 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-02 21:46:35,607 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:46:35,609 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:46:35,613 basehttp 212 "GET /info/ HTTP/1.1" 200 126
+INFO 2023-09-02 21:46:44,943 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:46:45,710 basehttp 212 "GET /info/ HTTP/1.1" 200 126
+WARNING 2023-09-02 21:46:45,718 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:46:45,719 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:46:49,850 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 21:47:01,398 basehttp 212 "GET /oauth_callback/?code=612BB1E1114F2AAC6C0B193E204D707D HTTP/1.1" 200 27
+WARNING 2023-09-02 21:47:01,671 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 21:47:01,672 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3796
+INFO 2023-09-02 21:47:03,899 basehttp 212 "GET /info/ HTTP/1.1" 200 126
+WARNING 2023-09-02 21:47:03,906 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:47:03,908 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:49:05,610 basehttp 212 "GET /info/ HTTP/1.1" 200 126
+WARNING 2023-09-02 21:49:05,621 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:49:05,623 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:49:12,116 basehttp 212 "GET /info/ HTTP/1.1" 200 126
+WARNING 2023-09-02 21:49:12,125 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:49:12,126 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:49:25,154 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 21:49:26,695 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:49:27,283 basehttp 212 "GET /info/ HTTP/1.1" 200 124
+WARNING 2023-09-02 21:49:27,321 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:49:27,322 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
