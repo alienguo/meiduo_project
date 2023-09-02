@@ -25,7 +25,7 @@ from django.shortcuts import render
     或将其与用户在网站上的原有账号进行绑定。
 把openid 和 用户信息 进行一一对应的绑定
 
-生成用户绑定链接 ---------->获取code   ------------>获取token ------------>获取openid -------->保存openid
+生成用户绑定链接 ---------->获取code ----------->获取token ------------>获取openid -------->保存openid
 
 
 前端： 当用户点击QQ登录图标的用户，前端发送一个axios(Ajax)请求
@@ -37,7 +37,9 @@ from django.shortcuts import render
 """
 from django.views import View
 from django.http import JsonResponse
+from apps.oauth.models import OAuthQQUser
 from QQLoginTool.QQtool import OAuthQQ
+from django.contrib.auth import login
 from meiduo_mall.settings import QQ_CLIENT_ID, QQ_CLIENT_SECRET, QQ_REDIRECT_URI
 
 
@@ -59,3 +61,44 @@ class QQLoginURLView(View):
 
         # 3.返回响应
         return JsonResponse({'code': 0, 'errmsg': 'ok', 'login_url': qq_login_url})
+
+
+"""
+后端
+    业务逻辑：获取code(前端发送的请求) ---->获取token --->获取openid ---> 根据openid进行判断是否需要进行绑定
+    路由：GET  oauth_callback/?code=xxxxx
+"""
+
+
+class OauthQQView(View):
+
+    def get(self, request):
+        # 1.获取code
+        code = request.GET.get('code')
+        if code is None:
+            return JsonResponse({'code': 400, 'errmsg': '参数不全'})
+
+        # 2.通过code换取token
+        qq = OAuthQQ(client_id=QQ_CLIENT_ID,
+                     client_secret=QQ_CLIENT_SECRET,
+                     redirect_uri=QQ_REDIRECT_URI,
+                     state='xxxx')
+        token = qq.get_access_token(code)
+
+        # 3.再通过token获取openid
+        openid = qq.get_open_id(token)
+
+        # 4. 根据openid查询判断
+        try:
+            qquser = OAuthQQUser.objects.get(openid=openid)
+        except OAuthQQUser.DoesNotExist:
+            # 不存在，需要绑定
+            response = JsonResponse({'code': 400, 'access_token': openid})
+            return response
+        else:
+            # 存在 则绑定过，直接登录
+            login(request, qquser.user)
+            response = JsonResponse({'code': 0, 'errmsg': 'ok'})
+            response.set_cookie('username', qquser.user.username)
+
+            return response

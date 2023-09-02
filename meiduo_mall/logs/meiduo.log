@@ -1603,3 +1603,30 @@ INFO 2023-09-02 16:28:27,833 autoreload 668 Watching for file changes with StatR
 WARNING 2023-09-02 16:28:31,101 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 16:28:31,102 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3636
 INFO 2023-09-02 16:28:35,329 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+WARNING 2023-09-02 16:32:54,422 log 241 Not Found: /oauth_callback/
+WARNING 2023-09-02 16:32:54,423 basehttp 212 "GET /oauth_callback/?code=76891FFDD285204A36E185C8238BDA53 HTTP/1.1" 404 3680
+INFO 2023-09-02 16:38:11,499 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 16:38:13,144 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 16:58:43,350 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 16:58:44,937 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:01:25,392 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 17:01:26,871 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-02 17:01:28,030 log 241 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py", line 86, in get
+    token = qq.get_access_token(code)
+  File "D:\Python310\lib\site-packages\QQLoginTool\QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2023-09-02 17:01:28,036 basehttp 212 "GET /oauth_callback/?code=76891FFDD285204A36E185C8238BDA53 HTTP/1.1" 500 85669
+INFO 2023-09-02 17:01:35,230 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 17:01:46,541 basehttp 212 "GET /oauth_callback/?code=CCB7F0777C71643BDD311E01E3F723B0 HTTP/1.1" 200 65
+INFO 2023-09-02 17:01:46,704 basehttp 212 "GET /image_codes/2da21bde-e5e9-492b-9067-425a33042130/ HTTP/1.1" 200 3310
