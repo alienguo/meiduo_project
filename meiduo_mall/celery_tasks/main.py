@@ -9,7 +9,7 @@ app = Celery('celery_tasks')
 
 # 2.设置broker
 # 通过加载配置文件色设置broker
-app.config_from_object('celery_task.config')
+app.config_from_object('celery_tasks.config')
 
 # 3.需要celery自动检测包的任务
 # autodiscover_tasks 参数是列表，列表中的元素是task的路径

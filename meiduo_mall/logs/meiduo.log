@@ -1630,3 +1630,297 @@ ERROR 2023-09-02 17:01:28,036 basehttp 212 "GET /oauth_callback/?code=76891FFDD2
 INFO 2023-09-02 17:01:35,230 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
 INFO 2023-09-02 17:01:46,541 basehttp 212 "GET /oauth_callback/?code=CCB7F0777C71643BDD311E01E3F723B0 HTTP/1.1" 200 65
 INFO 2023-09-02 17:01:46,704 basehttp 212 "GET /image_codes/2da21bde-e5e9-492b-9067-425a33042130/ HTTP/1.1" 200 3310
+INFO 2023-09-02 17:26:18,697 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 17:26:20,273 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:28:17,413 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 17:28:18,920 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:30:13,828 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 17:30:15,415 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:39:21,003 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 17:39:22,604 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:39:31,334 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:40:05,644 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 17:40:20,218 basehttp 212 "GET /oauth_callback/?code=95354B80FF420FFB3881B0FA2BD8CDAC HTTP/1.1" 200 65
+INFO 2023-09-02 17:40:20,264 basehttp 212 "GET /image_codes/6c45ea65-d39e-4a2f-a7e7-a4cdee65e9b7/ HTTP/1.1" 200 3607
+ERROR 2023-09-02 17:40:46,340 log 241 Internal Server Error: /sms_codes/18283906566/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\celery\local.py", line 292, in _get_current_object
+    return object.__getattribute__(self, '__thing')
+AttributeError: 'PromiseProxy' object has no attribute '__thing'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 142, in _smart_import
+    return imp(path)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 91, in import_from_cwd
+    return import_from_cwd(
+  File "D:\Python310\lib\site-packages\celery\utils\imports.py", line 104, in import_from_cwd
+    return imp(module, package=package)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 88, in import_module
+    return importlib.import_module(module, package=package)
+  File "D:\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'celery_task'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py", line 125, in get
+    celery_send_sms_code.delay(mobile, sms_code)
+  File "D:\Python310\lib\site-packages\celery\local.py", line 143, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Python310\lib\site-packages\celery\local.py", line 294, in _get_current_object
+    return self.__evaluate__()
+  File "D:\Python310\lib\site-packages\celery\local.py", line 324, in __evaluate__
+    thing = Proxy._get_current_object(self)
+  File "D:\Python310\lib\site-packages\celery\local.py", line 105, in _get_current_object
+    return loc(*self.__args, **self.__kwargs)
+  File "D:\Python310\lib\site-packages\celery\app\base.py", line 489, in _task_from_fun
+    task.bind(self)  # connects task to this app
+  File "D:\Python310\lib\site-packages\celery\app\task.py", line 355, in bind
+    setattr(cls, attr_name, conf[config_name])
+  File "D:\Python310\lib\site-packages\celery\utils\collections.py", line 391, in __getitem__
+    return getitem(k)
+  File "D:\Python310\lib\site-packages\celery\utils\collections.py", line 249, in __getitem__
+    return mapping[_key]
+  File "D:\Python310\lib\collections\__init__.py", line 1098, in __getitem__
+    if key in self.data:
+  File "D:\Python310\lib\site-packages\kombu\utils\objects.py", line 31, in __get__
+    return super().__get__(instance, owner)
+  File "D:\Python310\lib\functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "D:\Python310\lib\site-packages\celery\app\base.py", line 134, in data
+    return self.callback()
+  File "D:\Python310\lib\site-packages\celery\app\base.py", line 977, in _finalize_pending_conf
+    conf = self._conf = self._load_config()
+  File "D:\Python310\lib\site-packages\celery\app\base.py", line 987, in _load_config
+    self.loader.config_from_object(self._config_source)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 122, in config_from_object
+    obj = self._smart_import(obj, imp=self.import_from_cwd)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 145, in _smart_import
+    return symbol_by_name(path, imp=imp)
+  File "D:\Python310\lib\site-packages\kombu\utils\imports.py", line 59, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 91, in import_from_cwd
+    return import_from_cwd(
+  File "D:\Python310\lib\site-packages\celery\utils\imports.py", line 104, in import_from_cwd
+    return imp(module, package=package)
+  File "D:\Python310\lib\site-packages\celery\loaders\base.py", line 88, in import_module
+    return importlib.import_module(module, package=package)
+  File "D:\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'celery_task'
+ERROR 2023-09-02 17:40:46,350 basehttp 212 "GET /sms_codes/18283906566/?image_code=MRO5&image_code_id=6c45ea65-d39e-4a2f-a7e7-a4cdee65e9b7 HTTP/1.1" 500 208639
+INFO 2023-09-02 17:45:58,864 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\celery_tasks\main.py changed, reloading.
+INFO 2023-09-02 17:46:00,420 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 17:46:19,525 basehttp 212 "GET /image_codes/2198e5bd-399d-4b23-9c15-e75a049cebcc/ HTTP/1.1" 200 3239
+INFO 2023-09-02 17:46:20,925 basehttp 212 "GET /image_codes/42993dae-ed64-4ce0-a1ad-432c9656d853/ HTTP/1.1" 200 3150
+INFO 2023-09-02 17:46:28,759 basehttp 212 "GET /sms_codes/18283906566/?image_code=GFQW&image_code_id=42993dae-ed64-4ce0-a1ad-432c9656d853 HTTP/1.1" 200 27
+INFO 2023-09-02 17:49:25,773 basehttp 212 "GET /sms_codes/18283906566/?image_code=GFQW&image_code_id=42993dae-ed64-4ce0-a1ad-432c9656d853 HTTP/1.1" 200 75
+WARNING 2023-09-02 17:52:36,714 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 17:52:36,715 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 17:52:37,830 basehttp 212 "GET /image_codes/024ee6b7-8485-4c3e-b0f8-4a98363f76ff/ HTTP/1.1" 200 3210
+INFO 2023-09-02 17:52:40,225 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 17:52:42,326 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 17:54:15,072 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 17:54:16,519 basehttp 212 "GET /image_codes/c2a19eb2-090c-4c87-a8bc-0980053d8887/ HTTP/1.1" 200 2468
+INFO 2023-09-02 17:54:22,227 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 17:54:22,269 basehttp 212 "GET /sms_codes/18283906566/?image_code=aolz&image_code_id=c2a19eb2-090c-4c87-a8bc-0980053d8887 HTTP/1.1" 200 27
+INFO 2023-09-02 17:59:25,649 basehttp 212 "GET /image_codes/af71f6fd-76db-486b-9eb0-4301ec6ddb55/ HTTP/1.1" 200 2729
+INFO 2023-09-02 17:59:31,056 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 17:59:31,092 basehttp 212 "GET /sms_codes/18283906566/?image_code=AKNU&image_code_id=af71f6fd-76db-486b-9eb0-4301ec6ddb55 HTTP/1.1" 200 27
+INFO 2023-09-02 18:06:12,040 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-02 18:06:13,712 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:06:28,620 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:06:37,896 basehttp 212 "GET /image_codes/f168732a-d709-45e4-8d8c-bdeb62c75739/ HTTP/1.1" 200 3415
+INFO 2023-09-02 18:06:40,130 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:06:45,567 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:06:45,871 basehttp 212 "GET /sms_codes/18283906566/?image_code=arlt&image_code_id=f168732a-d709-45e4-8d8c-bdeb62c75739 HTTP/1.1" 200 27
+INFO 2023-09-02 18:07:23,632 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-02 18:07:25,164 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:11:18,433 basehttp 212 "GET /image_codes/49e45a46-18d6-49bd-8d07-0ee84a0d32bd/ HTTP/1.1" 200 3304
+INFO 2023-09-02 18:11:26,042 basehttp 212 "GET /sms_codes/18283906566/?image_code=WbUT&image_code_id=49e45a46-18d6-49bd-8d07-0ee84a0d32bd HTTP/1.1" 200 69
+INFO 2023-09-02 18:11:26,048 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:11:27,734 basehttp 212 "GET /image_codes/bf898234-0185-4cbe-8f06-82fc63ea98b8/ HTTP/1.1" 200 2814
+INFO 2023-09-02 18:11:40,104 basehttp 212 "GET /image_codes/362878eb-868a-4282-86cd-e2ade846ddb0/ HTTP/1.1" 200 3269
+INFO 2023-09-02 18:11:40,251 basehttp 212 "GET /image_codes/831d3e10-ac52-4df0-9347-f5c865d071fb/ HTTP/1.1" 200 3700
+INFO 2023-09-02 18:11:40,395 basehttp 212 "GET /image_codes/2163f845-4f72-4c52-a3b2-2bc88353ec3b/ HTTP/1.1" 200 3123
+INFO 2023-09-02 18:11:53,892 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:12:01,169 basehttp 212 "GET /image_codes/e09103e3-b035-41c7-b5fb-05ee5c436699/ HTTP/1.1" 200 3444
+INFO 2023-09-02 18:12:03,084 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:12:09,638 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:12:10,037 basehttp 212 "GET /sms_codes/18283906566/?image_code=ltkq&image_code_id=e09103e3-b035-41c7-b5fb-05ee5c436699 HTTP/1.1" 200 27
+WARNING 2023-09-02 18:12:53,221 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 18:12:53,223 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 18:12:54,953 basehttp 212 "GET /image_codes/59ae2a9f-1c24-45ed-9fc2-42eb922688e9/ HTTP/1.1" 200 3250
+INFO 2023-09-02 18:12:57,278 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:13:13,066 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:13:14,739 basehttp 212 "GET /image_codes/0ab7e04c-960a-4adf-a579-3eb62fbc5a5a/ HTTP/1.1" 200 3192
+INFO 2023-09-02 18:13:19,846 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:13:19,889 basehttp 212 "GET /sms_codes/18283906566/?image_code=eab5&image_code_id=0ab7e04c-960a-4adf-a579-3eb62fbc5a5a HTTP/1.1" 200 27
+INFO 2023-09-02 18:13:36,117 basehttp 212 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2023-09-02 18:13:36,121 basehttp 212 "GET /usernames/daguo/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:13:36,127 basehttp 212 "GET /mobiles/18283906566/count/ HTTP/1.1" 200 39
+INFO 2023-09-02 18:13:36,491 basehttp 212 "POST /register/ HTTP/1.1" 200 27
+WARNING 2023-09-02 18:13:36,746 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 18:13:36,747 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 18:13:42,918 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 18:13:57,539 basehttp 212 "GET /oauth_callback/?code=7F6EEB7A4F66E4094EBA0212968BB7FD HTTP/1.1" 200 65
+INFO 2023-09-02 18:13:57,565 basehttp 212 "GET /image_codes/7b2b4f37-97c1-4185-a85e-3dec1c226187/ HTTP/1.1" 200 3349
+INFO 2023-09-02 18:14:11,500 basehttp 212 "GET /sms_codes/18283906566/?image_code=NX6Q&image_code_id=7b2b4f37-97c1-4185-a85e-3dec1c226187 HTTP/1.1" 200 75
+INFO 2023-09-02 18:17:14,362 basehttp 212 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+ERROR 2023-09-02 18:17:58,269 log 241 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py", line 141, in post
+    user = User.objects.get('mobile', mobile)
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2023-09-02 18:17:58,275 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 500 118032
+ERROR 2023-09-02 18:18:56,525 log 241 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py", line 89, in get
+    token = qq.get_access_token(code)
+  File "D:\Python310\lib\site-packages\QQLoginTool\QQtool.py", line 63, in get_access_token
+    raise Exception('access_token获取失败')
+Exception: access_token获取失败
+ERROR 2023-09-02 18:18:56,527 basehttp 212 "GET /oauth_callback/?code=7F6EEB7A4F66E4094EBA0212968BB7FD HTTP/1.1" 500 86170
+INFO 2023-09-02 18:19:02,333 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 18:19:13,752 basehttp 212 "GET /oauth_callback/?code=2DBB8AAEF096441DD0677676E116ACC4 HTTP/1.1" 200 65
+INFO 2023-09-02 18:19:13,770 basehttp 212 "GET /image_codes/84cb00e0-812e-4333-81f3-51a0ac845305/ HTTP/1.1" 200 3110
+INFO 2023-09-02 18:19:24,248 basehttp 212 "GET /sms_codes/18283906566/?image_code=q3kf&image_code_id=84cb00e0-812e-4333-81f3-51a0ac845305 HTTP/1.1" 200 27
+ERROR 2023-09-02 18:19:58,979 log 241 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py", line 141, in post
+    user = User.objects.get('mobile', mobile)
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2023-09-02 18:20:32,075 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 500 118032
+INFO 2023-09-02 18:22:40,080 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 18:22:41,630 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:22:42,445 basehttp 212 "GET /image_codes/171adeb0-70af-45d2-ade7-f59e2ad66f03/ HTTP/1.1" 200 3285
+INFO 2023-09-02 18:22:44,191 basehttp 212 "GET /image_codes/c7fba5f1-23af-4714-a20f-0a6e71bf00d9/ HTTP/1.1" 200 3782
+INFO 2023-09-02 18:23:13,602 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:23:14,208 basehttp 212 "GET /image_codes/d0b2bd4c-695b-4f83-a0a5-1608e3464761/ HTTP/1.1" 200 3015
+ERROR 2023-09-02 18:23:41,286 log 241 Internal Server Error: /oauth_callback/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py", line 141, in post
+    user = User.objects.get(monile=mobile)
+  File "D:\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Python310\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'monile' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile, oauthqquser, password, user_permissions, username
+ERROR 2023-09-02 18:23:41,292 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 500 129657
+INFO 2023-09-02 18:27:41,882 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:27:42,682 basehttp 212 "GET /image_codes/2e28b11a-b424-4ceb-8e69-2fd83790a0e1/ HTTP/1.1" 200 3367
+INFO 2023-09-02 18:27:43,585 basehttp 212 "GET /image_codes/39188f6b-f0b8-4095-9b49-ab35d40f0bb9/ HTTP/1.1" 200 3044
+INFO 2023-09-02 18:27:49,294 basehttp 212 "GET /sms_codes/18283906566/?image_code=tvtf&image_code_id=39188f6b-f0b8-4095-9b49-ab35d40f0bb9 HTTP/1.1" 200 27
+INFO 2023-09-02 18:30:15,262 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 18:30:17,288 basehttp 212 "GET /image_codes/54213830-9160-4222-852c-8aa96bed6278/ HTTP/1.1" 200 2958
+INFO 2023-09-02 18:30:18,483 basehttp 212 "GET /image_codes/c7100942-0a7d-4cdb-b9c3-b0417dd9ac8a/ HTTP/1.1" 200 2913
+INFO 2023-09-02 18:30:40,636 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 200 27
+WARNING 2023-09-02 18:30:40,876 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 18:30:40,878 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 20:52:27,970 basehttp 212 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2023-09-02 20:52:27,986 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2023-09-02 20:52:44,878 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 20:52:56,475 basehttp 212 "GET /oauth_callback/?code=68C036C3E5DBD0E6B8644C578616ED5B HTTP/1.1" 200 27
+WARNING 2023-09-02 20:52:56,794 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 20:52:56,796 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
