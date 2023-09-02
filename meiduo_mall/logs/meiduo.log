@@ -1562,3 +1562,21 @@ INFO 2023-09-02 09:21:53,968 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-02 09:24:47,909 basehttp 212 "POST /login/ HTTP/1.1" 200 27
 WARNING 2023-09-02 09:24:48,144 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 09:24:48,146 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
+INFO 2023-09-02 09:32:15,035 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 09:32:32,758 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-02 09:32:32,931 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:32:32,932 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
+INFO 2023-09-02 09:33:29,711 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 09:33:30,583 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-02 09:33:48,068 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 09:33:48,070 log 241 Not Found: /info/
+WARNING 2023-09-02 09:33:48,071 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3176
+WARNING 2023-09-02 09:33:48,071 basehttp 212 "GET /info/ HTTP/1.1" 404 3140
+WARNING 2023-09-02 09:33:54,909 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 09:33:54,911 log 241 Not Found: /info/
+WARNING 2023-09-02 09:33:54,912 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3176
+WARNING 2023-09-02 09:33:54,912 basehttp 212 "GET /info/ HTTP/1.1" 404 3140
+WARNING 2023-09-02 09:34:07,869 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:34:07,870 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
+WARNING 2023-09-02 09:34:08,847 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:34:08,849 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
