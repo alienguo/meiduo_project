@@ -1531,3 +1531,30 @@ INFO 2023-09-01 22:48:55,907 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-01 22:48:57,031 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-01 22:52:36,965 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
 INFO 2023-09-01 22:52:37,736 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 08:57:25,794 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 08:57:44,127 basehttp 212 "OPTIONS /login/ HTTP/1.1" 200 0
+WARNING 2023-09-02 08:57:44,203 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:44,205 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:57:52,353 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:52,354 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:57:52,872 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:52,873 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:57:53,309 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:53,310 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:57:53,485 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:53,486 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:57:53,664 log 241 Not Found: /login/
+WARNING 2023-09-02 08:57:53,665 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:58:03,543 log 241 Not Found: /login/
+WARNING 2023-09-02 08:58:03,544 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+WARNING 2023-09-02 08:58:05,289 log 241 Not Found: /login/
+WARNING 2023-09-02 08:58:05,290 basehttp 212 "POST /login/ HTTP/1.1" 404 2991
+INFO 2023-09-02 08:58:50,501 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-02 08:58:51,960 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 08:59:48,530 basehttp 212 "POST /login/ HTTP/1.1" 200 69
+INFO 2023-09-02 09:01:59,645 basehttp 212 "POST /login/ HTTP/1.1" 200 69
+INFO 2023-09-02 09:02:03,194 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 09:02:04,698 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 09:02:47,339 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-02 09:02:47,532 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:02:47,534 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
