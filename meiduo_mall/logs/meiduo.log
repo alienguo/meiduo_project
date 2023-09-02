@@ -1457,3 +1457,77 @@ WARNING 2023-09-01 16:45:33,063 log 241 Not Found: /carts/simple/
 WARNING 2023-09-01 16:45:33,064 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3011
 INFO 2023-09-01 16:48:02,894 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
 INFO 2023-09-01 16:48:04,497 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 17:04:21,072 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 17:04:24,164 basehttp 212 "GET /image_codes/69e59ef6-ea85-427f-9384-989f469504b3/ HTTP/1.1" 200 3319
+INFO 2023-09-01 17:04:28,334 basehttp 212 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 17:04:29,522 basehttp 212 "GET /image_codes/57d88958-75a5-407a-8021-e26eaaab8a34/ HTTP/1.1" 200 3141
+INFO 2023-09-01 17:04:30,861 basehttp 212 "GET /image_codes/b1312c58-144b-4222-ab0b-1b02641d7eef/ HTTP/1.1" 200 2964
+INFO 2023-09-01 17:04:38,618 basehttp 212 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 17:04:38,708 log 241 Internal Server Error: /sms_codes/18211111111/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py", line 102, in get
+    redis_cli.select('verify_code')
+  File "D:\Python310\lib\site-packages\redis\commands\core.py", line 974, in select
+    return self.execute_command("SELECT", index, **kwargs)
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1269, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1270, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1246, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1286, in parse_response
+    response = connection.read_response()
+  File "D:\Python310\lib\site-packages\redis\connection.py", line 905, in read_response
+    raise response
+redis.exceptions.ResponseError: invalid DB index
+ERROR 2023-09-01 17:04:38,711 basehttp 212 "GET /sms_codes/18211111111/?image_code=COPT&image_code_id=b1312c58-144b-4222-ab0b-1b02641d7eef HTTP/1.1" 500 107265
+INFO 2023-09-01 17:04:43,032 basehttp 212 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+ERROR 2023-09-01 17:04:43,059 log 241 Internal Server Error: /sms_codes/18211111111/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py", line 102, in get
+    redis_cli.select('verify_code')
+  File "D:\Python310\lib\site-packages\redis\commands\core.py", line 974, in select
+    return self.execute_command("SELECT", index, **kwargs)
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1269, in execute_command
+    return conn.retry.call_with_retry(
+  File "D:\Python310\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1270, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1246, in _send_command_parse_response
+    return self.parse_response(conn, command_name, **options)
+  File "D:\Python310\lib\site-packages\redis\client.py", line 1286, in parse_response
+    response = connection.read_response()
+  File "D:\Python310\lib\site-packages\redis\connection.py", line 905, in read_response
+    raise response
+redis.exceptions.ResponseError: invalid DB index
+ERROR 2023-09-01 17:04:43,060 basehttp 212 "GET /sms_codes/18211111111/?image_code=COPT&image_code_id=b1312c58-144b-4222-ab0b-1b02641d7eef HTTP/1.1" 500 107265
+INFO 2023-09-01 17:05:27,596 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 17:05:32,228 basehttp 212 "GET /image_codes/5daa53e3-c146-4490-8413-048915895b91/ HTTP/1.1" 200 3137
+INFO 2023-09-01 17:05:34,591 basehttp 212 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 17:05:39,130 basehttp 212 "GET /mobiles/18211111111/count/ HTTP/1.1" 200 39
+INFO 2023-09-01 17:05:39,572 basehttp 212 "GET /sms_codes/18211111111/?image_code=pomf&image_code_id=5daa53e3-c146-4490-8413-048915895b91 HTTP/1.1" 200 27
+INFO 2023-09-01 17:06:33,447 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 17:06:34,207 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 22:48:55,907 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 22:48:57,031 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-01 22:52:36,965 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\verifications\views.py changed, reloading.
+INFO 2023-09-01 22:52:37,736 autoreload 668 Watching for file changes with StatReloader

@@ -112,12 +112,17 @@ class SmsCodeView(View):
         redis_conn.setex('send_flag_%s' % mobile, 60, 1)
 
         # 6.发送短信验证码
-        from libs.ronglian_sms_sdk.SmsSDK import SmsSDK
-        accId = '2c94811c8a27cf2d018a4c1f603a0e77'
-        accToken = '0219af12249c4869871525c79b97ebe4'
-        appId = '2c94811c8a27cf2d018a4c1f618f0e7e'
-        sdk = SmsSDK(accId, accToken, appId)
-        sdk.sendMessage('1', mobile, (sms_code, '5'))
+        # from libs.ronglian_sms_sdk.SmsSDK import SmsSDK
+        # accId = '2c94811c8a27cf2d018a4c1f603a0e77'
+        # accToken = '0219af12249c4869871525c79b97ebe4'
+        # appId = '2c94811c8a27cf2d018a4c1f618f0e7e'
+        # sdk = SmsSDK(accId, accToken, appId)
+        # sdk.sendMessage('1', mobile, (sms_code, '5'))
+
+        # celery实现短信异步发送
+        from celery_tasks.sms.tasks import celery_send_sms_code
+        # delay()参数等同于任务（函数）的参数
+        celery_send_sms_code.delay(mobile, sms_code)
 
         # 7.返回响应
         return JsonResponse({'code': 0, 'errmsg': 'ok'})
