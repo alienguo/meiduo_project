@@ -1558,3 +1558,7 @@ INFO 2023-09-02 09:02:04,698 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-02 09:02:47,339 basehttp 212 "POST /login/ HTTP/1.1" 200 27
 WARNING 2023-09-02 09:02:47,532 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 09:02:47,534 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
+INFO 2023-09-02 09:21:53,968 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 09:24:47,909 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-02 09:24:48,144 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:24:48,146 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164

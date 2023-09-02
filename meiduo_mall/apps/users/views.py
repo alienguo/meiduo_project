@@ -104,6 +104,14 @@ class LoginView(View):
         if not all([username, password]):
             return JsonResponse({'code': 400, 'errmsg': '参数不全'})
 
+        # 确定是根据手机号查询还是用户名查询
+        # 修改User.USERNAME_FIELD来影响authenticate查询
+        # authenticate查询就是根据User.USERNAME_FIELD字段
+        if re.match(r'1[3-9]\d{9}', username):
+            User.USERNAME_FIELD = 'mobile'
+        else:
+            User.USERNAME_FIELD = 'username'
+
         # 3.验证用户名和密码是否正确
         # 方式一：查询数据库
         # 方式二：django提供的方法
