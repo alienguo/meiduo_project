@@ -141,3 +141,25 @@ class LoginView(View):
 
         return response
 
+
+"""
+前端：
+    当用户点击退出按钮时，前端发送axios delete请求
+    
+后端：
+    请求
+    业务逻辑   退出
+    响应
+"""
+
+
+class LogoutView(View):
+
+    def delete(self, request):
+        from django.contrib.auth import logout
+        # 1.删除session信息
+        logout(request)
+        response = JsonResponse({'code': 0, 'errmsg': 'ok'})
+        # 2.删除cookie信息 前端是根据cookie信息来判断用户是否登录的
+        response.delete_cookie('username')
+        return response

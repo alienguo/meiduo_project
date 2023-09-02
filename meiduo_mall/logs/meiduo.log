@@ -1580,3 +1580,13 @@ WARNING 2023-09-02 09:34:07,869 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 09:34:07,870 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
 WARNING 2023-09-02 09:34:08,847 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 09:34:08,849 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3164
+INFO 2023-09-02 09:41:22,234 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 09:41:26,097 basehttp 212 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2023-09-02 09:41:39,871 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-02 09:41:55,508 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:41:55,510 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3318
+INFO 2023-09-02 09:44:36,556 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 09:44:38,194 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 09:47:01,007 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-02 09:47:03,644 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 09:47:03,645 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3318
