@@ -1590,3 +1590,12 @@ INFO 2023-09-02 09:44:38,194 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-02 09:47:01,007 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
 WARNING 2023-09-02 09:47:03,644 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 09:47:03,645 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3318
+INFO 2023-09-02 09:57:40,323 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 09:57:41,958 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 10:07:32,304 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-02 10:07:34,055 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 10:14:11,139 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-02 10:14:12,771 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 10:14:41,234 basehttp 212 "GET /center/ HTTP/1.1" 200 51
+WARNING 2023-09-02 10:14:41,376 log 241 Not Found: /favicon.ico
+WARNING 2023-09-02 10:14:41,377 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 3466
