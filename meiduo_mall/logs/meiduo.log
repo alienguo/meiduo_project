@@ -1924,3 +1924,25 @@ INFO 2023-09-02 20:52:44,878 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.
 INFO 2023-09-02 20:52:56,475 basehttp 212 "GET /oauth_callback/?code=68C036C3E5DBD0E6B8644C578616ED5B HTTP/1.1" 200 27
 WARNING 2023-09-02 20:52:56,794 log 241 Not Found: /carts/simple/
 WARNING 2023-09-02 20:52:56,796 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 21:11:45,172 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 21:11:46,798 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:15:00,860 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\oauth\views.py changed, reloading.
+INFO 2023-09-02 21:15:02,384 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-02 21:32:20,299 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-02 21:32:38,726 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 21:32:38,727 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 21:32:40,108 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2023-09-02 21:32:43,398 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 21:32:54,916 basehttp 212 "GET /oauth_callback/?code=943650EE379AE3F90E6045E92FE823A6 HTTP/1.1" 200 27
+WARNING 2023-09-02 21:32:55,209 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 21:32:55,211 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798
+INFO 2023-09-02 21:34:15,507 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2023-09-02 21:34:17,520 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
+INFO 2023-09-02 21:35:08,996 basehttp 212 "GET /oauth_callback/?code=73B33F8DA377658128569222361E944E HTTP/1.1" 200 247
+INFO 2023-09-02 21:35:09,042 basehttp 212 "GET /image_codes/80f69190-f06c-4aeb-b9c9-95b2e07ae1a4/ HTTP/1.1" 200 3168
+INFO 2023-09-02 21:36:00,019 basehttp 212 "GET /image_codes/b01b3bd8-f18a-41b8-8345-6b857bd51b49/ HTTP/1.1" 200 3397
+INFO 2023-09-02 21:36:05,457 basehttp 212 "GET /sms_codes/18283906566/?image_code=JOIU&image_code_id=b01b3bd8-f18a-41b8-8345-6b857bd51b49 HTTP/1.1" 200 27
+INFO 2023-09-02 21:36:13,674 basehttp 212 "OPTIONS /oauth_callback/ HTTP/1.1" 200 0
+INFO 2023-09-02 21:36:20,627 basehttp 212 "POST /oauth_callback/ HTTP/1.1" 200 27
+WARNING 2023-09-02 21:36:21,027 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 21:36:21,029 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3798

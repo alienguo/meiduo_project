@@ -96,7 +96,12 @@ class OauthQQView(View):
             qquser = OAuthQQUser.objects.get(openid=openid)
         except OAuthQQUser.DoesNotExist:
             # 不存在，需要绑定
-            response = JsonResponse({'code': 400, 'access_token': openid})
+
+            # 封装加密，封装的目的：解耦---当需求发生改变的时候，对代码的修改较少
+            from apps.oauth.utils import generic_openid
+            access_token = generic_openid(openid)
+
+            response = JsonResponse({'code': 400, 'access_token': access_token})
             return response
         else:
             # 存在 则绑定过，直接登录
@@ -113,7 +118,7 @@ class OauthQQView(View):
         mobile = data.get('mobile')
         password = data.get('password')
         sms_code = data.get('sms_code')
-        openid = data.get('access_token')
+        access_token = data.get('access_token')
 
         # 校验参数
         # 判断参数是否齐全
@@ -135,6 +140,12 @@ class OauthQQView(View):
         # 对比用户输入的和服务端存储的短信验证码是否一致
         if sms_code != sms_code_server.decode():
             return JsonResponse({'code': 400, 'errmsg': '短信验证码有误'})
+
+        # 对access_token解密
+        from apps.oauth.utils import check_access_token
+        openid = check_access_token(access_token)
+        if openid is None:
+            return JsonResponse({'code': 400, 'errmsg': '参数缺失'})
 
         # 3. 根据手机号进行用户信息的查询
         try:
