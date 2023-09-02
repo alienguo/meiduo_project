@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.users',
     'corsheaders',  # CORS
     'apps.verifications',
+    'apps.oauth',
 ]
 
 MIDDLEWARE = [
@@ -223,3 +224,11 @@ CORS_ALLOWED_ORIGINS = (
     'http://www.meiduo.site:8080'
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+# QQ登录参数
+# 客户端id
+QQ_CLIENT_ID = '101474184'
+# 客户端秘钥
+QQ_CLIENT_SECRET = 'c6ce949e04e12ecc909ae6a8b09b637c'
+# 登录成功后回调的路径
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8080/oauth_callback.html'

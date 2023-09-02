@@ -1599,3 +1599,7 @@ INFO 2023-09-02 10:14:12,771 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-02 10:14:41,234 basehttp 212 "GET /center/ HTTP/1.1" 200 51
 WARNING 2023-09-02 10:14:41,376 log 241 Not Found: /favicon.ico
 WARNING 2023-09-02 10:14:41,377 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 3466
+INFO 2023-09-02 16:28:27,833 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-02 16:28:31,101 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 16:28:31,102 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3636
+INFO 2023-09-02 16:28:35,329 basehttp 212 "GET /qq/authorization/?next=/ HTTP/1.1" 200 204
