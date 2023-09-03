@@ -183,3 +183,55 @@ class CenterView(LoginRequiredJSONMixin, View):
         }
 
         return JsonResponse({'code': 0, 'errmsg': 'ok', 'info_data': info_data})
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+
+    def put(self, request):
+        # 1.接收参数
+        data = json.loads(request.body.decode())
+        email = data.get('email')
+
+        # 2.验证参数
+        if not email:
+            return JsonResponse({'code': 400, 'errmsg': '缺少email参数'})
+        if not re.match(r'^[a-z0-9][\w.-]*@[a-z0-9-]+(\.[a-z]{2,5}){1,2}$', email):
+            return JsonResponse({'code': 400, 'errmsg': '参数email有误'})
+
+        # 3.保存邮箱地址（更新）
+        user = request.user
+        user.email = email
+        user.save()
+
+        # 4.发送邮件
+        from django.core.mail import send_mail
+        # subject   主题
+        subject = '美多商城激活邮件'
+        # message   邮件内容
+        message = ''
+        # from_email    发件人
+        from_email = '美多商城<qi_rui_hua@163.com>'
+        # recipient_list    收件人列表
+        recipient_list = [email]
+
+        # 4.1加密处理
+        from apps.users.utils import generic_email_verify_token
+        token = generic_email_verify_token(request.user.id)
+
+        # 4.2编写激活邮件
+        verify_url = 'http://www.meiduo.site:8080/success_verify_email.html?token=%s' % token
+        # 邮件内容是html时候用html_message
+        html_message = '<p>尊敬的用户您好！</p>' \
+                       '<p>感谢您使用美多商城。</p>' \
+                       '<p>您的邮箱为：%s 。请点击此链接激活您的邮箱：</p>' \
+                       '<p><a href="%s">%s<a></p>' % (email, verify_url, verify_url)
+
+        from celery_tasks.email.tasks import celery_send_mail
+        celery_send_mail.delay(subject=subject,
+                               message=message,
+                               from_email=from_email,
+                               recipient_list=recipient_list,
+                               html_message=html_message)
+
+        # 5.返回响应
+        return JsonResponse({'code': 0, 'errmsg': 'ok'})

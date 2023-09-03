@@ -1983,3 +1983,64 @@ INFO 2023-09-02 21:49:26,695 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-02 21:49:27,283 basehttp 212 "GET /info/ HTTP/1.1" 200 124
 WARNING 2023-09-02 21:49:27,321 log 241 Not Found: /browse_histories/
 WARNING 2023-09-02 21:49:27,322 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-02 21:53:43,427 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-02 21:53:47,092 log 241 Not Found: /carts/simple/
+WARNING 2023-09-02 21:53:47,093 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3796
+INFO 2023-09-02 21:53:48,184 basehttp 212 "GET /info/ HTTP/1.1" 200 51
+WARNING 2023-09-02 21:53:48,205 log 241 Not Found: /browse_histories/
+WARNING 2023-09-02 21:53:48,205 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-03 10:42:05,418 basehttp 212 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2023-09-03 10:42:05,802 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-03 10:42:06,048 log 241 Not Found: /carts/simple/
+WARNING 2023-09-03 10:42:06,049 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3796
+INFO 2023-09-03 10:42:07,404 basehttp 212 "GET /info/ HTTP/1.1" 200 124
+WARNING 2023-09-03 10:42:07,412 log 241 Not Found: /browse_histories/
+WARNING 2023-09-03 10:42:07,414 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3808
+INFO 2023-09-03 10:45:22,879 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 10:45:24,889 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 10:50:07,129 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 10:50:09,750 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 10:50:55,545 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 10:50:57,098 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 10:53:23,947 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 10:53:25,566 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 10:54:12,512 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 10:54:13,981 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:00:24,459 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:00:35,041 basehttp 212 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2023-09-03 11:00:52,143 basehttp 212 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2023-09-03 11:16:15,222 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:16:16,899 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:24:48,909 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:24:49,602 basehttp 212 "GET /info/ HTTP/1.1" 200 141
+WARNING 2023-09-03 11:24:49,728 log 241 Not Found: /browse_histories/
+WARNING 2023-09-03 11:24:49,730 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3962
+INFO 2023-09-03 11:24:56,489 basehttp 212 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2023-09-03 11:40:04,892 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:40:06,707 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:44:38,143 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:44:39,733 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:46:16,948 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:46:18,559 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:48:02,935 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:48:04,698 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:49:23,563 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:49:25,124 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:50:30,142 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:50:31,709 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:51:50,638 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:51:52,183 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:52:58,150 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 11:52:59,664 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 11:53:47,606 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-03 11:54:03,056 log 241 Not Found: /browse_histories/
+WARNING 2023-09-03 11:54:03,058 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 3962
+INFO 2023-09-03 11:54:03,061 basehttp 212 "GET /info/ HTTP/1.1" 200 141
+INFO 2023-09-03 11:54:10,048 basehttp 212 "PUT /emails/ HTTP/1.1" 200 27
+INFO 2023-09-03 11:54:43,998 basehttp 212 "OPTIONS /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5MzcxMzI0OSwiZXhwIjoxNjkzNzk5NjQ5fQ.eyJ1c2VyX2lkIjoxN30.IWejOMGz8qTX-UW2YoW7oBqQwKOpecJP-J7bMO5KuuNuykYQpAf4s3UQaE7iV8_-HxFfTPzJu2uNo3Htv8_YGw HTTP/1.1" 200 0
+WARNING 2023-09-03 11:54:44,034 log 241 Not Found: /emails/verification/
+WARNING 2023-09-03 11:54:44,036 basehttp 212 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5MzcxMzI0OSwiZXhwIjoxNjkzNzk5NjQ5fQ.eyJ1c2VyX2lkIjoxN30.IWejOMGz8qTX-UW2YoW7oBqQwKOpecJP-J7bMO5KuuNuykYQpAf4s3UQaE7iV8_-HxFfTPzJu2uNo3Htv8_YGw HTTP/1.1" 404 4151
+WARNING 2023-09-03 11:54:57,615 log 241 Not Found: /carts/simple/
+WARNING 2023-09-03 11:54:57,616 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3950
+WARNING 2023-09-03 11:55:00,604 log 241 Not Found: /emails/verification/
+WARNING 2023-09-03 11:55:00,607 basehttp 212 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5MzcxMzI0OSwiZXhwIjoxNjkzNzk5NjQ5fQ.eyJ1c2VyX2lkIjoxN30.IWejOMGz8qTX-UW2YoW7oBqQwKOpecJP-J7bMO5KuuNuykYQpAf4s3UQaE7iV8_-HxFfTPzJu2uNo3Htv8_YGw HTTP/1.1" 404 4151

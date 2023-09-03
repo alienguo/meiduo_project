@@ -13,7 +13,7 @@ app.config_from_object('celery_tasks.config')
 
 # 3.需要celery自动检测包的任务
 # autodiscover_tasks 参数是列表，列表中的元素是task的路径
-app.autodiscover_tasks(['celery_tasks.sms'])
+app.autodiscover_tasks(['celery_tasks.sms', 'celery_tasks.email'])
 
 
 # 4.消费者（虚拟环境终端执行）
