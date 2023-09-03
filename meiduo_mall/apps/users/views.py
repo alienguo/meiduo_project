@@ -235,3 +235,26 @@ class EmailView(LoginRequiredJSONMixin, View):
 
         # 5.返回响应
         return JsonResponse({'code': 0, 'errmsg': 'ok'})
+
+class EmailVerifyView(View):
+
+    def put(self, request):
+        # 1.接受请求,获取参数
+        token = request.GET.get('token')
+        # 2.验证参数
+        if token is None:
+            return JsonResponse({'code': 400, 'errmsg': '参数缺失'})
+
+        # 3.获取user_id
+        from apps.users.utils import check_email_verify_token
+        user_id = check_email_verify_token(token)
+        if user_id is None:
+            return JsonResponse({'code': 400, 'errmsg': '参数错误'})
+
+        # 4.根据user_id查询数据,修改数据
+        user = User.objects.get(id=user_id)
+        user.email_active = True
+        user.save()
+
+        # 5.返回相应
+        return JsonResponse({'code': 0, 'errmsg': 'ok'})

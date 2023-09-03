@@ -2044,3 +2044,6 @@ WARNING 2023-09-03 11:54:57,615 log 241 Not Found: /carts/simple/
 WARNING 2023-09-03 11:54:57,616 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 3950
 WARNING 2023-09-03 11:55:00,604 log 241 Not Found: /emails/verification/
 WARNING 2023-09-03 11:55:00,607 basehttp 212 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5MzcxMzI0OSwiZXhwIjoxNjkzNzk5NjQ5fQ.eyJ1c2VyX2lkIjoxN30.IWejOMGz8qTX-UW2YoW7oBqQwKOpecJP-J7bMO5KuuNuykYQpAf4s3UQaE7iV8_-HxFfTPzJu2uNo3Htv8_YGw HTTP/1.1" 404 4151
+INFO 2023-09-03 12:15:38,717 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 12:15:40,414 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 12:16:50,030 autoreload 668 Watching for file changes with StatReloader
