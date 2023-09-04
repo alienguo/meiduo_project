@@ -2338,3 +2338,80 @@ INFO 2023-09-04 15:19:24,937 basehttp 212 "POST /addresses/create/ HTTP/1.1" 200
 INFO 2023-09-04 15:19:25,121 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
 WARNING 2023-09-04 15:19:25,151 log 241 Not Found: /addresses/
 WARNING 2023-09-04 15:19:25,152 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4589
+INFO 2023-09-04 15:25:37,706 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:25:39,235 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:26:27,303 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:26:28,810 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:27:35,954 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:27:37,647 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-04 15:27:39,146 log 241 Not Found: /addresses/
+WARNING 2023-09-04 15:27:39,149 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4589
+INFO 2023-09-04 15:27:39,150 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:07,632 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 15:28:09,143 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:28:19,927 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:19,948 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:33,891 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:33,910 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:34,426 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:34,444 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:34,574 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:34,592 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:34,718 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:34,737 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:34,835 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:34,853 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:35,045 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:35,064 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:35,468 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:35,487 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:35,705 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:35,724 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:45,736 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:28:48,364 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:48,383 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:48,921 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:48,938 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,078 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,095 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,254 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,278 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,416 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,436 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,585 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,606 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,742 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,758 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:28:49,896 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:28:49,925 basehttp 212 "GET /addresses/ HTTP/1.1" 200 252
+INFO 2023-09-04 15:29:45,552 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:29:51,299 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:30:47,917 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:30:49,553 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:30:50,460 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:30:52,262 basehttp 212 "GET /addresses/ HTTP/1.1" 200 254
+INFO 2023-09-04 15:35:29,918 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 15:35:31,448 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:36:07,787 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 15:36:09,345 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:36:51,090 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 15:36:52,759 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:53:57,935 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:53:59,608 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:54:34,968 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:54:36,623 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:55:12,982 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:55:14,670 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:55:20,387 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:55:24,418 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 15:55:24,438 basehttp 212 "GET /addresses/ HTTP/1.1" 200 254
+INFO 2023-09-04 15:55:39,732 basehttp 212 "GET /areas/210000/ HTTP/1.1" 200 701
+INFO 2023-09-04 15:55:41,681 basehttp 212 "GET /areas/210800/ HTTP/1.1" 200 339
+INFO 2023-09-04 15:55:54,020 basehttp 212 "OPTIONS /addresses/1/ HTTP/1.1" 200 0
+WARNING 2023-09-04 15:55:54,055 log 241 Not Found: /addresses/1/
+WARNING 2023-09-04 15:55:54,055 basehttp 212 "PUT /addresses/1/ HTTP/1.1" 404 4935
+WARNING 2023-09-04 15:56:02,720 log 241 Not Found: /addresses/1/
+WARNING 2023-09-04 15:56:02,721 basehttp 212 "PUT /addresses/1/ HTTP/1.1" 404 4935
+INFO 2023-09-04 15:57:01,117 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 15:57:02,683 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:57:49,434 autoreload 668 Watching for file changes with StatReloader
