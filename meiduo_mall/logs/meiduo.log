@@ -2240,3 +2240,101 @@ INFO 2023-09-04 10:19:39,101 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-04 10:19:40,681 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-04 10:28:11,494 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\views.py changed, reloading.
 INFO 2023-09-04 10:28:13,137 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:31:32,313 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2023-09-04 13:31:35,162 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:34:11,039 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2023-09-04 13:34:12,708 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:35:20,904 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\models.py changed, reloading.
+INFO 2023-09-04 13:35:22,393 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:41:40,910 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:41:42,625 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-04 13:41:43,565 log 241 Not Found: /addresses/
+WARNING 2023-09-04 13:41:43,566 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4425
+INFO 2023-09-04 13:41:43,586 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 13:41:54,469 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:41:56,073 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:42:43,375 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:42:44,942 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:43:19,387 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:43:20,912 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:43:52,941 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2023-09-04 13:43:54,428 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:46:06,727 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:46:08,261 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:46:54,130 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:46:55,701 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:50:48,972 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:50:50,496 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:52:41,212 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 13:52:42,745 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:54:24,234 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 13:54:33,670 basehttp 212 "GET /areas/110000/ HTTP/1.1" 200 97
+INFO 2023-09-04 13:54:34,652 basehttp 212 "GET /areas/110100/ HTTP/1.1" 200 799
+INFO 2023-09-04 13:54:55,551 basehttp 212 "OPTIONS /addresses/create/ HTTP/1.1" 200 0
+INFO 2023-09-04 13:55:19,482 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-04 13:55:57,510 log 241 Not Found: /addresses/
+INFO 2023-09-04 13:55:57,510 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+WARNING 2023-09-04 13:55:57,512 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4589
+INFO 2023-09-04 13:56:02,659 basehttp 212 "GET /areas/110000/ HTTP/1.1" 200 97
+INFO 2023-09-04 13:56:03,473 basehttp 212 "GET /areas/110100/ HTTP/1.1" 200 799
+INFO 2023-09-04 15:08:02,868 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:08:05,557 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:11:30,792 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:11:32,339 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:12:44,386 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:16:03,129 basehttp 212 "POST /addresses/create/ HTTP/1.1" 200 51
+INFO 2023-09-04 15:16:34,378 basehttp 212 "POST /addresses/create/ HTTP/1.1" 200 51
+INFO 2023-09-04 15:17:01,394 basehttp 212 "GET /addresses/create/ HTTP/1.1" 200 51
+WARNING 2023-09-04 15:17:01,667 log 241 Not Found: /favicon.ico
+WARNING 2023-09-04 15:17:01,668 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 4586
+INFO 2023-09-04 15:17:35,169 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 15:17:36,744 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:17:43,116 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-04 15:17:44,256 log 241 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 267, in post
+    data = json.loads(request.body.decode())
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)
+ERROR 2023-09-04 15:17:44,258 basehttp 212 "POST /addresses/create/ HTTP/1.1" 500 93035
+INFO 2023-09-04 15:18:01,192 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-04 15:18:03,257 log 241 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 267, in post
+    data = json.loads(request.body.decode())
+  File "D:\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "D:\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 6 column 14 (char 128)
+ERROR 2023-09-04 15:18:03,263 basehttp 212 "POST /addresses/create/ HTTP/1.1" 500 92475
+INFO 2023-09-04 15:18:53,152 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:19:13,536 basehttp 212 "GET /areas/360000/ HTTP/1.1" 200 563
+INFO 2023-09-04 15:19:14,651 basehttp 212 "GET /areas/360100/ HTTP/1.1" 200 477
+INFO 2023-09-04 15:19:24,937 basehttp 212 "POST /addresses/create/ HTTP/1.1" 200 250
+INFO 2023-09-04 15:19:25,121 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+WARNING 2023-09-04 15:19:25,151 log 241 Not Found: /addresses/
+WARNING 2023-09-04 15:19:25,152 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4589
