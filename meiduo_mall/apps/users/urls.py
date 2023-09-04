@@ -14,4 +14,7 @@ urlpatterns = [
     path('addresses/create/', views.CreateAddressView.as_view()),
     path('addresses/', views.AddressView.as_view()),
     path('addresses/<address_id>/', views.UpdateDestroyAddressView.as_view()),
+    path('addresses/<address_id>/default/', views.DefaultAddressView.as_view()),
+    path('addresses/<address_id>/title/', views.UpdateTitleAddressView.as_view()),
+    path('password/', views.ChangePasswordView.as_view()),
 ]
