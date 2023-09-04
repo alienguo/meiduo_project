@@ -2232,3 +2232,11 @@ WARNING 2023-09-04 09:51:39,490 log 241 Not Found: /addresses/
 WARNING 2023-09-04 09:51:39,491 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4425
 INFO 2023-09-04 09:51:42,104 basehttp 212 "GET /areas/220000/ HTTP/1.1" 200 495
 INFO 2023-09-04 09:51:44,545 basehttp 212 "GET /areas/220100/ HTTP/1.1" 200 511
+INFO 2023-09-04 10:08:39,341 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\views.py changed, reloading.
+INFO 2023-09-04 10:08:41,017 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 10:14:20,325 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\views.py changed, reloading.
+INFO 2023-09-04 10:14:21,807 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 10:19:39,101 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\views.py changed, reloading.
+INFO 2023-09-04 10:19:40,681 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 10:28:11,494 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\views.py changed, reloading.
+INFO 2023-09-04 10:28:13,137 autoreload 668 Watching for file changes with StatReloader
