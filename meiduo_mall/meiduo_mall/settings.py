@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'apps.oauth',
     'apps.areas',
     'apps.goods',
+    'apps.contents',
     'corsheaders',  # CORS
 ]
 
