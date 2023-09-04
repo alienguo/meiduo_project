@@ -413,3 +413,16 @@ class UpdateDestroyAddressView(LoginRequiredJSONMixin, View):
 
         # 响应更新地址结果
         return JsonResponse({'code': 0, 'errmsg': '更新地址成功', 'address': address_dict})
+
+    def delete(self, request, address_id):
+        """删除地址"""
+        try:
+            # 查询要删除的地址
+            address = Address.objects.get(id=address_id)
+            # 逻辑删除
+            address.is_deleted = True
+            address.save()
+        except Exception as e:
+            return JsonResponse({'code': 400, 'errmsg': '删除地址失败'})
+
+        return JsonResponse({'code': 0, 'errmsg': '删除地址成功'})

@@ -2415,3 +2415,20 @@ WARNING 2023-09-04 15:56:02,721 basehttp 212 "PUT /addresses/1/ HTTP/1.1" 404 49
 INFO 2023-09-04 15:57:01,117 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\urls.py changed, reloading.
 INFO 2023-09-04 15:57:02,683 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-04 15:57:49,434 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 15:58:35,442 basehttp 212 "PUT /addresses/1/ HTTP/1.1" 200 278
+INFO 2023-09-04 16:02:19,511 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 16:02:21,063 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:03:02,702 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 16:03:04,308 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:03:28,926 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 16:03:30,518 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:04:06,996 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 16:04:08,562 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:04:53,438 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-04 16:04:55,042 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:05:05,894 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 16:05:11,101 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 16:05:11,121 basehttp 212 "GET /addresses/ HTTP/1.1" 200 248
+INFO 2023-09-04 16:05:23,189 basehttp 212 "DELETE /addresses/1/ HTTP/1.1" 200 61
+INFO 2023-09-04 16:05:23,282 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-04 16:05:23,296 basehttp 212 "GET /addresses/ HTTP/1.1" 200 44
