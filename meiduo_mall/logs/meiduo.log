@@ -2047,3 +2047,25 @@ WARNING 2023-09-03 11:55:00,607 basehttp 212 "PUT /emails/verification/?token=ey
 INFO 2023-09-03 12:15:38,717 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
 INFO 2023-09-03 12:15:40,414 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-03 12:16:50,030 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-03 12:17:16,572 basehttp 212 "PUT /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTY5MzcxMzI0OSwiZXhwIjoxNjkzNzk5NjQ5fQ.eyJ1c2VyX2lkIjoxN30.IWejOMGz8qTX-UW2YoW7oBqQwKOpecJP-J7bMO5KuuNuykYQpAf4s3UQaE7iV8_-HxFfTPzJu2uNo3Htv8_YGw HTTP/1.1" 200 27
+INFO 2023-09-03 12:20:24,333 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2023-09-03 12:20:25,879 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-03 12:24:23,953 log 241 Not Found: /carts/simple/
+WARNING 2023-09-03 12:24:23,954 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 4117
+WARNING 2023-09-03 12:24:25,162 log 241 Not Found: /browse_histories/
+INFO 2023-09-03 12:24:25,164 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+WARNING 2023-09-03 12:24:25,164 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 4129
+INFO 2023-09-03 12:24:30,067 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+WARNING 2023-09-03 12:24:30,075 log 241 Not Found: /browse_histories/
+WARNING 2023-09-03 12:24:30,076 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 4129
+WARNING 2023-09-03 12:24:32,224 log 241 Not Found: /addresses/
+WARNING 2023-09-03 12:24:32,230 log 241 Not Found: /areas/
+WARNING 2023-09-03 12:24:32,231 basehttp 212 "GET /addresses/ HTTP/1.1" 404 4108
+WARNING 2023-09-03 12:24:32,233 basehttp 212 "GET /areas/ HTTP/1.1" 404 4096
+INFO 2023-09-03 12:25:38,439 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+WARNING 2023-09-03 12:25:38,451 log 241 Not Found: /browse_histories/
+WARNING 2023-09-03 12:25:38,453 basehttp 212 "GET /browse_histories/ HTTP/1.1" 404 4129
+INFO 2023-09-04 08:49:38,812 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-09-04 08:49:41,323 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-04 08:50:23,090 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\areas\models.py changed, reloading.
+INFO 2023-09-04 08:50:24,735 autoreload 668 Watching for file changes with StatReloader

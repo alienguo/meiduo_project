@@ -236,6 +236,7 @@ class EmailView(LoginRequiredJSONMixin, View):
         # 5.返回响应
         return JsonResponse({'code': 0, 'errmsg': 'ok'})
 
+
 class EmailVerifyView(View):
 
     def put(self, request):
