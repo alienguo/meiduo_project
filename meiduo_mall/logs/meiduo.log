@@ -3013,3 +3013,255 @@ INFO 2023-09-04 17:05:49,657 basehttp 212 "OPTIONS /addresses/3/default/ HTTP/1.
 INFO 2023-09-04 17:05:49,671 basehttp 212 "PUT /addresses/3/default/ HTTP/1.1" 200 73
 INFO 2023-09-04 17:05:53,810 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
 INFO 2023-09-04 17:05:53,822 basehttp 212 "GET /addresses/ HTTP/1.1" 200 474
+INFO 2023-09-05 15:07:18,693 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-05 15:10:10,392 basehttp 212 "GET /index/ HTTP/1.1" 200 124490
+WARNING 2023-09-05 15:10:11,509 log 241 Not Found: /group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278
+WARNING 2023-09-05 15:10:11,512 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-05 15:10:11,530 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 15:10:11,532 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLmiKANEeLAAFfMRWFbY86177278 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,545 log 241 Not Found: /group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396
+WARNING 2023-09-05 15:10:11,560 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5606
+WARNING 2023-09-05 15:10:11,562 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLmc-AJdVSAAEI5Wm7zaw8639396 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,618 log 241 Not Found: /group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788
+WARNING 2023-09-05 15:10:11,621 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLnHaATJWfAABcalxfbWk5995788 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,631 log 241 Not Found: /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2023-09-05 15:10:11,642 log 241 Not Found: /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2023-09-05 15:10:11,648 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,649 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,709 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2023-09-05 15:10:11,712 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2023-09-05 15:10:11,720 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2023-09-05 15:10:11,722 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,723 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,725 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,786 log 241 Not Found: /group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702
+WARNING 2023-09-05 15:10:11,801 log 241 Not Found: /group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927
+WARNING 2023-09-05 15:10:11,803 log 241 Not Found: /group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973
+WARNING 2023-09-05 15:10:11,804 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLmkaAPIMJAAESCG7GAh43642702 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,804 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLmnaADtSKAAGlxZuk7uk4998927 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,806 basehttp 212 "GET /group1/M00/00/01/CtM3BVrLm_iAILnwAACbl1lbG3U8255973 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,863 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2023-09-05 15:10:11,867 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,881 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2023-09-05 15:10:11,885 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2023-09-05 15:10:11,893 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,894 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,941 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2023-09-05 15:10:11,945 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,962 log 241 Not Found: /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2023-09-05 15:10:11,971 log 241 Not Found: /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633
+WARNING 2023-09-05 15:10:11,972 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:11,983 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,014 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096
+WARNING 2023-09-05 15:10:12,022 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,042 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070
+WARNING 2023-09-05 15:10:12,051 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836
+WARNING 2023-09-05 15:10:12,052 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,061 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,098 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529
+WARNING 2023-09-05 15:10:12,101 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,112 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140
+WARNING 2023-09-05 15:10:12,128 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281
+WARNING 2023-09-05 15:10:12,128 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,132 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,175 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536
+WARNING 2023-09-05 15:10:12,177 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,197 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827
+WARNING 2023-09-05 15:10:12,213 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867
+WARNING 2023-09-05 15:10:12,214 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,217 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,239 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2023-09-05 15:10:12,255 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,281 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2023-09-05 15:10:12,291 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2023-09-05 15:10:12,292 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,294 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,311 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2023-09-05 15:10:12,318 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,394 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2023-09-05 15:10:12,404 log 241 Not Found: /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2023-09-05 15:10:12,418 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,421 log 241 Not Found: /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2023-09-05 15:10:12,422 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,445 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,455 log 241 Not Found: /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2023-09-05 15:10:12,495 log 241 Not Found: /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2023-09-05 15:10:12,499 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966
+WARNING 2023-09-05 15:10:12,507 log 241 Not Found: /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214
+WARNING 2023-09-05 15:10:12,514 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,516 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,527 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,531 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,547 log 241 Not Found: /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256
+WARNING 2023-09-05 15:10:12,594 log 241 Not Found: /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704
+WARNING 2023-09-05 15:10:12,594 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,609 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,639 log 241 Not Found: /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736
+WARNING 2023-09-05 15:10:12,647 log 241 Not Found: /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706
+WARNING 2023-09-05 15:10:12,649 basehttp 212 "GET /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,664 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925
+WARNING 2023-09-05 15:10:12,675 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,696 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519
+WARNING 2023-09-05 15:10:12,710 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,712 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,756 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603
+WARNING 2023-09-05 15:10:12,771 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337
+WARNING 2023-09-05 15:10:12,780 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,798 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,817 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047
+WARNING 2023-09-05 15:10:12,836 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233
+WARNING 2023-09-05 15:10:12,842 log 241 Not Found: /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011
+WARNING 2023-09-05 15:10:12,844 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,852 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,861 log 241 Not Found: /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130
+WARNING 2023-09-05 15:10:12,871 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,892 basehttp 212 "GET /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,902 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242
+WARNING 2023-09-05 15:10:12,932 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014
+WARNING 2023-09-05 15:10:12,948 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,950 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,969 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631
+WARNING 2023-09-05 15:10:12,979 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:12,988 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142
+WARNING 2023-09-05 15:10:13,002 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728
+WARNING 2023-09-05 15:10:13,010 log 241 Not Found: /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835
+WARNING 2023-09-05 15:10:13,032 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,032 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,067 log 241 Not Found: /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527
+WARNING 2023-09-05 15:10:13,077 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942
+WARNING 2023-09-05 15:10:13,080 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,107 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,108 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,128 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303
+WARNING 2023-09-05 15:10:13,162 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,185 log 241 Not Found: /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082
+WARNING 2023-09-05 15:10:13,199 log 241 Not Found: /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195
+WARNING 2023-09-05 15:10:13,208 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,213 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,242 log 241 Not Found: /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811
+WARNING 2023-09-05 15:10:13,252 log 241 Not Found: /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653
+WARNING 2023-09-05 15:10:13,259 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,260 log 241 Not Found: /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012
+WARNING 2023-09-05 15:10:13,270 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,287 log 241 Not Found: /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289
+WARNING 2023-09-05 15:10:13,309 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544
+WARNING 2023-09-05 15:10:13,310 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,317 basehttp 212 "GET /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,332 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,340 log 241 Not Found: /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519
+WARNING 2023-09-05 15:10:13,374 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435
+WARNING 2023-09-05 15:10:13,382 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041
+WARNING 2023-09-05 15:10:13,383 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,404 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,406 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,438 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761
+WARNING 2023-09-05 15:10:13,453 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415
+WARNING 2023-09-05 15:10:13,467 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263
+WARNING 2023-09-05 15:10:13,482 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,482 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,484 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,521 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172
+WARNING 2023-09-05 15:10:13,529 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555
+WARNING 2023-09-05 15:10:13,538 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884
+WARNING 2023-09-05 15:10:13,565 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,566 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,569 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,588 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174
+WARNING 2023-09-05 15:10:13,597 log 241 Not Found: /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400
+WARNING 2023-09-05 15:10:13,604 log 241 Not Found: /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088
+WARNING 2023-09-05 15:10:13,606 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,607 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,608 basehttp 212 "GET /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088 HTTP/1.1" 404 5720
+WARNING 2023-09-05 15:10:13,686 log 241 Not Found: /favicon.ico
+WARNING 2023-09-05 15:10:13,688 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 5600
+WARNING 2023-09-05 15:10:54,934 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+INFO 2023-09-05 15:28:32,847 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-05 15:28:38,541 log 241 Internal Server Error: /index/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\files\storage\handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "D:\Python310\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'utils.fastdfs.storage' has no attribute 'Mystorage'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\files\storage\handler.py", line 52, in create_storage
+    storage_cls = import_string(backend)
+  File "D:\Python310\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "utils.fastdfs.storage" does not define a "Mystorage" attribute/class
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\goods\views.py", line 41, in get
+    return render(request, 'index.html', context)
+  File "D:\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "D:\Python310\lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "D:\Python310\lib\site-packages\django\db\models\fields\files.py", line 67, in url
+    return self.storage.url(self.name)
+  File "D:\Python310\lib\site-packages\django\utils\functional.py", line 266, in inner
+    self._setup()
+  File "D:\Python310\lib\site-packages\django\core\files\storage\__init__.py", line 38, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+  File "D:\Python310\lib\site-packages\django\core\files\storage\handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "D:\Python310\lib\site-packages\django\core\files\storage\handler.py", line 54, in create_storage
+    raise InvalidStorageError(f"Could not find backend {backend!r}: {e}") from e
+django.core.files.storage.handler.InvalidStorageError: Could not find backend 'utils.fastdfs.storage.Mystorage': Module "utils.fastdfs.storage" does not define a "Mystorage" attribute/class
+ERROR 2023-09-05 15:28:38,549 basehttp 212 "GET /index/ HTTP/1.1" 500 308346
+INFO 2023-09-05 15:29:12,207 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-05 15:29:15,157 basehttp 212 "GET /index/ HTTP/1.1" 200 126492
+WARNING 2023-09-05 15:29:15,311 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-05 15:29:15,470 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 15:29:15,470 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5606
