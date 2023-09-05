@@ -3265,3 +3265,132 @@ INFO 2023-09-05 15:29:15,157 basehttp 212 "GET /index/ HTTP/1.1" 200 126492
 WARNING 2023-09-05 15:29:15,311 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
 WARNING 2023-09-05 15:29:15,470 log 241 Not Found: /carts/simple/
 WARNING 2023-09-05 15:29:15,470 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5606
+INFO 2023-09-05 18:06:05,221 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-05 18:06:11,202 log 241 Not Found: /hot/115/
+WARNING 2023-09-05 18:06:11,209 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 18:06:11,215 basehttp 212 "GET /hot/115/ HTTP/1.1" 404 5765
+WARNING 2023-09-05 18:06:11,215 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5780
+ERROR 2023-09-05 18:06:11,307 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:06:11,309 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 77903
+WARNING 2023-09-05 18:07:55,560 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 18:07:55,568 log 241 Not Found: /hot/115/
+WARNING 2023-09-05 18:07:55,575 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5780
+WARNING 2023-09-05 18:07:55,576 basehttp 212 "GET /hot/115/ HTTP/1.1" 404 5765
+ERROR 2023-09-05 18:07:55,646 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:07:55,648 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 77903
+WARNING 2023-09-05 18:08:57,055 log 241 Not Found: /hot/115/
+WARNING 2023-09-05 18:08:57,068 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 18:08:57,069 basehttp 212 "GET /hot/115/ HTTP/1.1" 404 5765
+WARNING 2023-09-05 18:08:57,070 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5780
+ERROR 2023-09-05 18:08:57,173 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:08:57,177 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 77903
+ERROR 2023-09-05 18:08:59,454 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:08:59,458 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 500 77847
+ERROR 2023-09-05 18:09:00,047 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:09:00,049 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.1" 500 77855
+ERROR 2023-09-05 18:09:00,482 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:09:00,484 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 77903
+ERROR 2023-09-05 18:09:00,942 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:09:00,944 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 500 77847
+ERROR 2023-09-05 18:09:01,243 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:09:01,245 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.1" 500 77855
+ERROR 2023-09-05 18:09:01,799 log 241 Internal Server Error: /list/115/skus/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ListView.get() got an unexpected keyword argument 'category'
+ERROR 2023-09-05 18:09:01,801 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 500 77903
+INFO 2023-09-05 18:09:40,826 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-05 18:09:43,937 log 241 Not Found: /hot/115/
+WARNING 2023-09-05 18:09:43,954 basehttp 212 "GET /hot/115/ HTTP/1.1" 404 5768
+WARNING 2023-09-05 18:09:43,964 log 241 Not Found: /carts/simple/
+WARNING 2023-09-05 18:09:43,967 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 5783
+INFO 2023-09-05 18:10:43,899 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1546
+INFO 2023-09-05 18:10:50,401 basehttp 212 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1472
+INFO 2023-09-05 18:10:56,821 basehttp 212 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1143
