@@ -95,3 +95,47 @@ class ListView(View):
             'list': list,
             'count': total_page
         })
+
+
+class HotGoodsView(View):
+    """商品热销排行"""
+
+    def get(self, request, category_id):
+        """提供商品热销排行JSON数据"""
+        # 根据销量倒序
+        skus = SKU.objects.filter(category_id=category_id, is_launched=True).order_by('-sales')[:2]
+
+        # 序列化
+        hot_skus = []
+        for sku in skus:
+            hot_skus.append({
+                'id': sku.id,
+                'default_image_url': sku.default_image.url,
+                'name': sku.name,
+                'price': sku.price
+            })
+
+        return JsonResponse({'code': 0, 'errmsg': 'OK', 'hot_skus': hot_skus})
+
+# 导入:
+from haystack.views import SearchView
+
+
+class SKUSearchView(SearchView):
+    """重写SearchView类"""
+    def create_response(self):
+        # 获取搜索结果
+        context = self.get_context()
+        data_list = []
+        for sku in context['page'].object_list:
+            data_list.append({
+                'id': sku.object.id,
+                'name': sku.object.name,
+                'price': sku.object.price,
+                'default_image_url': sku.object.default_image.url,
+                'searchkey': context.get('query'),
+                'page_size': context['page'].paginator.num_pages,
+                'count': context['page'].paginator.count
+            })
+        # 拼接参数, 返回
+        return JsonResponse(data_list, safe=False)

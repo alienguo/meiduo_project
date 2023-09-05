@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'apps.goods',
     'apps.contents',
     'corsheaders',  # CORS
+    'haystack',
 ]
 
 MIDDLEWARE = [
@@ -253,3 +254,13 @@ EMAIL_FROM = '美多商城<qi_rui_hua@163.com>'
 # 加载自定义文件存储类
 # 指定自定义的Django文件存储类
 DEFAULT_FILE_STORAGE = 'utils.fastdfs.storage.MyStorage'
+
+
+# Haystack ES的配置
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch2_backend.Elasticsearch2SearchEngine',
+        'URL': 'http://192.168.33.128:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo_mall',  # Elasticsearch建立的索引库的名称
+    },
+}
