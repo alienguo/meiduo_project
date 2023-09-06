@@ -264,3 +264,6 @@ HAYSTACK_CONNECTIONS = {
         'INDEX_NAME': 'meiduo_mall',  # Elasticsearch建立的索引库的名称
     },
 }
+
+# 设置搜索每页数据的条数
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5

@@ -3557,3 +3557,11 @@ INFO 2023-09-05 22:49:36,082 basehttp 212 "GET /search/?q=iphone&page=1&page_siz
 INFO 2023-09-05 22:49:39,547 basehttp 212 "GET /search/?q=mac&page=1&page_size=6 HTTP/1.1" 200 2
 INFO 2023-09-05 22:49:46,361 basehttp 212 "GET /search/?q=MacBook&page=1&page_size=6 HTTP/1.1" 200 534
 INFO 2023-09-05 22:50:05,495 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2691
+INFO 2023-09-06 09:21:36,749 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-09-06 09:21:37,162 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-09-06 09:21:38,539 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:22:15,754 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2023-09-06 09:22:16,889 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:22:19,072 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1684
+INFO 2023-09-06 09:22:20,816 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=2 HTTP/1.1" 200 1007
+INFO 2023-09-06 09:22:22,011 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=2 HTTP/1.1" 200 1684
