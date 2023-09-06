@@ -78,8 +78,8 @@ class CartsView(View):
             selected_ids = redis_cli.smembers('selected_%s' % user.id)
             carts = {}
             for sku_id, count in sku_id_count.items():
-                carts[sku_id] = {
-                    'count': count,
+                carts[int(sku_id)] = {
+                    'count': int(count),
                     'selected': sku_id in selected_ids
                 }
         else:
@@ -128,7 +128,7 @@ class CartsView(View):
 
         if user.is_authenticated:
             redis_cli = get_redis_connection('carts')
-            redis_cli.hest('carts_%s' % user.id, sku_id, count)
+            redis_cli.hset('carts_%s' % user.id, sku_id, count)
             if selected:
                 redis_cli.sadd('selected_%s' % user.id, sku_id)
             else:
@@ -192,4 +192,40 @@ class CartsView(View):
                 cookie_cart_str = base64.b64encode(pickle.dumps(cart_dict)).decode()
                 # 响应结果并将购物车数据写入到cookie
                 response.set_cookie('carts', cookie_cart_str, max_age=7 * 24 * 3600)
+            return response
+
+
+class CartsSelectAllView(View):
+    """全选购物车"""
+
+    def put(self, request):
+        # 接收参数
+        json_dict = json.loads(request.body.decode())
+        selected = json_dict.get('selected')
+
+        # 判断用户是否登录
+        user = request.user
+        if user is not None and user.is_authenticated:
+            # 用户已登录，操作redis购物车
+            redis_conn = get_redis_connection('carts')
+            cart = redis_conn.hgetall('carts_%s' % user.id)
+            sku_id_list = cart.keys()
+            if selected:
+                # 全选
+                redis_conn.sadd('selected_%s' % user.id, *sku_id_list)
+            else:
+                # 取消全选
+                redis_conn.srem('selected_%s' % user.id, *sku_id_list)
+            return JsonResponse({'code': 0, 'errmsg': '全选购物车成功'})
+        else:
+            # 用户已登录，操作cookie购物车
+            cart = request.COOKIES.get('carts')
+            response = JsonResponse({'code': 0, 'errmsg': '全选购物车成功'})
+            if cart is not None:
+                cart = pickle.loads(base64.b64decode(cart.encode()))
+                for sku_id in cart:
+                    cart[sku_id]['selected'] = selected
+                cookie_cart = base64.b64encode(pickle.dumps(cart)).decode()
+                response.set_cookie('carts', cookie_cart, max_age=14 * 24 * 3600)
+
             return response

@@ -4188,3 +4188,571 @@ INFO 2023-09-06 21:40:16,574 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-06 21:40:18,319 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-06 21:40:39,167 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\urls.py changed, reloading.
 INFO 2023-09-06 21:40:40,990 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:41:51,542 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\urls.py changed, reloading.
+INFO 2023-09-06 21:41:53,318 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:42:31,498 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 21:42:33,230 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:43:42,667 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:43:43,532 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:43:44,813 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:45,759 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:46,326 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:46,728 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:47,103 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:47,474 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:47,851 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:48,234 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:43:48,611 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:44:14,556 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\urls.py changed, reloading.
+INFO 2023-09-06 21:44:16,396 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:45:03,663 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:45:03,663 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 57
+INFO 2023-09-06 21:45:59,273 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:46:03,095 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:46:16,378 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:21,459 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:21,893 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:22,238 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:22,580 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:22,865 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:23,168 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:23,504 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:23,861 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,107 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,278 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,453 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,605 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,745 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:24,893 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:25,035 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:25,176 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:25,339 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:27,442 basehttp 212 "GET /carts/ HTTP/1.1" 200 707
+INFO 2023-09-06 21:46:28,385 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:46:29,313 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:46:34,156 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:46:35,586 basehttp 212 "GET /info/ HTTP/1.1" 200 51
+INFO 2023-09-06 21:46:35,589 basehttp 212 "GET /browse_histories/ HTTP/1.1" 200 51
+WARNING 2023-09-06 21:46:39,337 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:46:39,339 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:46:40,866 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:46:41,859 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+WARNING 2023-09-06 21:46:44,143 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:46:44,144 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:46:44,943 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+INFO 2023-09-06 21:49:46,812 basehttp 212 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2023-09-06 21:49:47,180 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-06 21:49:47,549 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:49:47,551 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+ERROR 2023-09-06 21:49:48,960 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:49:48,963 basehttp 212 "GET /carts/ HTTP/1.1" 500 85121
+INFO 2023-09-06 21:49:51,946 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+INFO 2023-09-06 21:49:51,969 basehttp 212 "GET /browse_histories/ HTTP/1.1" 200 876
+INFO 2023-09-06 21:49:53,655 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2023-09-06 21:49:53,675 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 21:49:53,676 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 21:49:53,677 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:49:54,303 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-06 21:49:58,120 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-06 21:49:58,126 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 21:49:58,138 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:49:58,140 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:49:58,703 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-06 21:50:01,576 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-06 21:50:01,594 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 21:50:01,622 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:50:01,624 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:50:03,109 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+ERROR 2023-09-06 21:50:12,578 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:12,581 basehttp 212 "GET /carts/ HTTP/1.1" 500 85614
+ERROR 2023-09-06 21:50:16,950 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:16,953 basehttp 212 "GET /carts/ HTTP/1.1" 500 85614
+ERROR 2023-09-06 21:50:17,480 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:17,482 basehttp 212 "GET /carts/ HTTP/1.1" 500 85614
+ERROR 2023-09-06 21:50:17,959 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:17,968 basehttp 81 - Broken pipe from ('127.0.0.1', 59643)
+ERROR 2023-09-06 21:50:18,126 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:18,133 basehttp 81 - Broken pipe from ('127.0.0.1', 60039)
+ERROR 2023-09-06 21:50:18,332 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:18,340 basehttp 81 - Broken pipe from ('127.0.0.1', 59551)
+ERROR 2023-09-06 21:50:18,534 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:18,540 basehttp 81 - Broken pipe from ('127.0.0.1', 60126)
+ERROR 2023-09-06 21:50:18,747 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:18,757 basehttp 81 - Broken pipe from ('127.0.0.1', 60131)
+ERROR 2023-09-06 21:50:18,827 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:18,831 basehttp 212 "GET /carts/ HTTP/1.1" 500 85614
+ERROR 2023-09-06 21:50:19,168 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:19,174 basehttp 81 - Broken pipe from ('127.0.0.1', 60134)
+ERROR 2023-09-06 21:50:19,353 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO 2023-09-06 21:50:19,364 basehttp 81 - Broken pipe from ('127.0.0.1', 60141)
+ERROR 2023-09-06 21:50:19,502 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:19,504 basehttp 212 "GET /carts/ HTTP/1.1" 500 85614
+INFO 2023-09-06 21:50:37,555 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-06 21:50:40,877 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 103, in get
+    'count': carts.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2023-09-06 21:50:40,879 basehttp 212 "GET /carts/ HTTP/1.1" 500 80846
+INFO 2023-09-06 21:51:59,334 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:52:45,841 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:53:02,034 basehttp 212 "GET /carts/ HTTP/1.1" 200 1040
+INFO 2023-09-06 21:53:05,968 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:06,497 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:06,872 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:07,198 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:07,545 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:07,876 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:08,225 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:08,578 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:09,365 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:09,758 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:10,153 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+ERROR 2023-09-06 21:53:11,423 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:11,436 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:14,074 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:14,077 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:15,242 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:15,245 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:16,026 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:16,029 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:18,176 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:18,178 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:20,200 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:20,202 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:22,630 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:22,632 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:22,830 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:22,831 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:23,506 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:23,510 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:23,741 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:23,743 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84115
+ERROR 2023-09-06 21:53:24,260 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:24,263 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:24,458 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:24,461 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84111
+ERROR 2023-09-06 21:53:25,603 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:25,605 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:26,515 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:26,517 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:27,109 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:27,111 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:27,351 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:27,353 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:27,510 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:27,512 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:28,028 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:28,029 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+ERROR 2023-09-06 21:53:28,212 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 131, in put
+    redis_cli.hest('carts_%s' % user.id, sku_id, count)
+AttributeError: 'Redis' object has no attribute 'hest'
+ERROR 2023-09-06 21:53:28,214 basehttp 212 "PUT /carts/ HTTP/1.1" 500 84109
+INFO 2023-09-06 21:53:30,059 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:53:31,931 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:54:13,600 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:54:15,566 basehttp 212 "GET /carts/ HTTP/1.1" 200 1043
+INFO 2023-09-06 21:54:16,780 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+INFO 2023-09-06 21:54:17,533 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+INFO 2023-09-06 21:54:22,339 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+INFO 2023-09-06 21:54:23,172 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+INFO 2023-09-06 21:54:23,915 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+INFO 2023-09-06 21:54:25,465 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-06 21:54:26,137 basehttp 212 "PUT /carts/ HTTP/1.1" 200 71
+INFO 2023-09-06 21:54:26,994 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:54:27,647 basehttp 212 "PUT /carts/selection/ HTTP/1.1" 200 67
+INFO 2023-09-06 21:54:41,085 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+WARNING 2023-09-06 21:54:43,651 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 21:54:43,652 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 21:54:44,517 basehttp 212 "GET /carts/ HTTP/1.1" 200 1042
+INFO 2023-09-06 21:54:45,627 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
