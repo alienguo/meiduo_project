@@ -4756,3 +4756,253 @@ WARNING 2023-09-06 21:54:43,651 log 241 Not Found: /carts/simple/
 WARNING 2023-09-06 21:54:43,652 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
 INFO 2023-09-06 21:54:44,517 basehttp 212 "GET /carts/ HTTP/1.1" 200 1042
 INFO 2023-09-06 21:54:45,627 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-06 23:28:44,630 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:28:45,782 basehttp 212 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2023-09-06 23:28:45,811 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:28:48,618 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:28:48,620 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:28:50,190 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+ERROR 2023-09-06 23:30:00,458 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 9, in merge_cookie_to_redis
+    cookie_carts = request.COOKIE.get('cart')
+AttributeError: 'WSGIRequest' object has no attribute 'COOKIE'
+ERROR 2023-09-06 23:30:00,470 basehttp 212 "POST /login/ HTTP/1.1" 500 88125
+ERROR 2023-09-06 23:30:27,934 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 9, in merge_cookie_to_redis
+    cookie_carts = request.COOKIE.get('cart')
+AttributeError: 'WSGIRequest' object has no attribute 'COOKIE'
+ERROR 2023-09-06 23:30:27,945 basehttp 212 "POST /login/ HTTP/1.1" 500 88125
+INFO 2023-09-06 23:31:31,894 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:32:25,068 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-06 23:32:26,646 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:32:26,647 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:32:28,551 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+ERROR 2023-09-06 23:32:44,143 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 9, in merge_cookie_to_redis
+    cookie_carts = request.COOKIE.get('cart')
+AttributeError: 'WSGIRequest' object has no attribute 'COOKIE'
+ERROR 2023-09-06 23:32:44,144 basehttp 212 "POST /login/ HTTP/1.1" 500 83381
+ERROR 2023-09-06 23:32:46,687 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 9, in merge_cookie_to_redis
+    cookie_carts = request.COOKIE.get('cart')
+AttributeError: 'WSGIRequest' object has no attribute 'COOKIE'
+ERROR 2023-09-06 23:32:46,688 basehttp 212 "POST /login/ HTTP/1.1" 500 83381
+ERROR 2023-09-06 23:32:53,640 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 9, in merge_cookie_to_redis
+    cookie_carts = request.COOKIE.get('cart')
+AttributeError: 'WSGIRequest' object has no attribute 'COOKIE'
+ERROR 2023-09-06 23:32:53,641 basehttp 212 "POST /login/ HTTP/1.1" 500 83357
+INFO 2023-09-06 23:33:15,939 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:33:24,568 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:33:24,881 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:33:24,889 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:33:28,226 basehttp 212 "GET /carts/ HTTP/1.1" 200 1042
+WARNING 2023-09-06 23:33:38,807 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:33:38,809 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:33:39,829 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:33:42,640 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:33:42,641 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:33:43,441 basehttp 212 "GET /carts/ HTTP/1.1" 200 709
+WARNING 2023-09-06 23:33:54,810 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:33:54,813 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:33:57,616 basehttp 212 "GET /hot/115/ HTTP/1.1" 200 576
+INFO 2023-09-06 23:33:57,620 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1546
+WARNING 2023-09-06 23:33:57,634 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:33:57,635 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:34:14,368 basehttp 212 "GET /search/?q=MacBook&page=1&page_size=6 HTTP/1.1" 200 534
+INFO 2023-09-06 23:34:16,083 basehttp 212 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2023-09-06 23:34:16,083 basehttp 212 "OPTIONS /detail/visit/157/ HTTP/1.1" 200 0
+INFO 2023-09-06 23:34:16,103 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+WARNING 2023-09-06 23:34:16,122 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:34:16,124 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:34:16,140 basehttp 212 "POST /detail/visit/157/ HTTP/1.1" 200 27
+INFO 2023-09-06 23:34:17,975 basehttp 212 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2023-09-06 23:34:17,988 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-06 23:34:20,318 basehttp 212 "GET /carts/ HTTP/1.1" 200 975
+INFO 2023-09-06 23:35:03,944 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-06 23:35:06,193 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 29, in merge_cookie_to_redis
+    pipeline.hmset('carts_%s' % user.id, cookie_dict)
+AttributeError: 'int' object has no attribute 'id'
+ERROR 2023-09-06 23:35:06,195 basehttp 212 "POST /login/ HTTP/1.1" 500 85767
+ERROR 2023-09-06 23:35:09,584 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 29, in merge_cookie_to_redis
+    pipeline.hmset('carts_%s' % user.id, cookie_dict)
+AttributeError: 'int' object has no attribute 'id'
+ERROR 2023-09-06 23:35:09,584 basehttp 212 "POST /login/ HTTP/1.1" 500 85767
+INFO 2023-09-06 23:35:19,492 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-06 23:36:02,792 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 29, in merge_cookie_to_redis
+    pipeline.hmset('carts_%s' % user.id, cookie_dict)
+AttributeError: 'int' object has no attribute 'id'
+ERROR 2023-09-06 23:36:02,799 basehttp 212 "POST /login/ HTTP/1.1" 500 90535
+ERROR 2023-09-06 23:36:14,809 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 29, in merge_cookie_to_redis
+    pipeline.hmset('carts_%s' % user.id, cookie_dict)
+AttributeError: 'int' object has no attribute 'id'
+ERROR 2023-09-06 23:36:14,811 basehttp 212 "POST /login/ HTTP/1.1" 500 90535
+INFO 2023-09-06 23:36:49,398 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-06 23:36:51,764 log 241 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\users\views.py", line 148, in post
+    response = merge_cookie_to_redis(request, response)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\utils.py", line 31, in merge_cookie_to_redis
+    pipeline.saad('selected_%s' % user.id, *selected_ids)   # * 对列表数据进行解包
+AttributeError: 'Pipeline' object has no attribute 'saad'
+ERROR 2023-09-06 23:36:51,767 basehttp 212 "POST /login/ HTTP/1.1" 500 85806
+INFO 2023-09-06 23:37:20,899 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:37:23,324 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:37:23,623 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:37:23,625 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:37:24,911 basehttp 212 "GET /carts/ HTTP/1.1" 200 1042
+INFO 2023-09-06 23:38:16,652 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-06 23:38:17,855 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:38:17,856 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:38:18,047 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:38:21,241 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:38:21,242 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:38:21,915 basehttp 212 "GET /carts/ HTTP/1.1" 200 44
+INFO 2023-09-06 23:38:25,970 basehttp 212 "GET /carts/ HTTP/1.1" 200 44
+WARNING 2023-09-06 23:38:33,867 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:38:33,868 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:38:34,920 basehttp 212 "GET /carts/ HTTP/1.1" 200 44
+INFO 2023-09-06 23:38:52,940 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:38:53,202 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:38:53,204 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:38:56,636 basehttp 212 "GET /carts/ HTTP/1.1" 200 1042
+INFO 2023-09-06 23:38:59,148 basehttp 212 "DELETE /carts/ HTTP/1.1" 200 67
+INFO 2023-09-06 23:38:59,619 basehttp 212 "DELETE /carts/ HTTP/1.1" 200 67
+INFO 2023-09-06 23:39:00,052 basehttp 212 "DELETE /carts/ HTTP/1.1" 200 67
+WARNING 2023-09-06 23:39:02,835 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:39:02,836 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:39:03,697 basehttp 212 "DELETE /logout/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:39:05,532 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:39:05,534 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+WARNING 2023-09-06 23:39:07,684 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 23:39:07,686 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1546
+INFO 2023-09-06 23:39:07,688 basehttp 212 "GET /hot/115/ HTTP/1.1" 200 576
+WARNING 2023-09-06 23:39:07,691 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:39:09,641 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+INFO 2023-09-06 23:39:09,655 basehttp 212 "OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+WARNING 2023-09-06 23:39:09,681 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:39:09,689 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:39:09,709 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+INFO 2023-09-06 23:39:10,675 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-06 23:39:15,746 basehttp 212 "GET /search/?q=MacBook&page=1&page_size=6 HTTP/1.1" 200 534
+INFO 2023-09-06 23:39:16,765 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+INFO 2023-09-06 23:39:16,786 basehttp 212 "POST /detail/visit/157/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:39:16,800 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:39:16,802 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:39:17,606 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-06 23:39:19,368 basehttp 212 "GET /carts/ HTTP/1.1" 200 647
+INFO 2023-09-06 23:39:42,991 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+WARNING 2023-09-06 23:39:43,289 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 23:39:43,290 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
+INFO 2023-09-06 23:39:46,159 basehttp 212 "GET /carts/ HTTP/1.1" 200 647
