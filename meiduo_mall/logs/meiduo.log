@@ -3565,3 +3565,38 @@ INFO 2023-09-06 09:22:16,889 autoreload 668 Watching for file changes with StatR
 INFO 2023-09-06 09:22:19,072 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1684
 INFO 2023-09-06 09:22:20,816 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=2 HTTP/1.1" 200 1007
 INFO 2023-09-06 09:22:22,011 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=2 HTTP/1.1" 200 1684
+INFO 2023-09-06 09:30:19,877 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\goods\urls.py changed, reloading.
+INFO 2023-09-06 09:30:21,056 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:34:51,039 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\goods\views.py changed, reloading.
+INFO 2023-09-06 09:34:52,418 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:35:22,169 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\goods\views.py changed, reloading.
+INFO 2023-09-06 09:35:23,233 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:35:53,063 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\goods\views.py changed, reloading.
+INFO 2023-09-06 09:35:54,085 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:36:58,023 autoreload 668 Watching for file changes with StatReloader
+ERROR 2023-09-06 09:37:27,037 log 241 Internal Server Error: /detail/1/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: DetailView.get() got an unexpected keyword argument 'sky_id'
+ERROR 2023-09-06 09:37:27,038 basehttp 212 "GET /detail/1/ HTTP/1.1" 500 72679
+INFO 2023-09-06 09:37:44,172 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 09:37:46,588 basehttp 212 "GET /detail/1/ HTTP/1.1" 200 107800
+WARNING 2023-09-06 09:37:46,685 log 241 Not Found: /images/logo.png
+WARNING 2023-09-06 09:37:46,689 basehttp 212 "GET /images/logo.png HTTP/1.1" 404 6283
+WARNING 2023-09-06 09:37:46,786 log 241 Not Found: /images/logo.png
+WARNING 2023-09-06 09:37:46,789 basehttp 212 "GET /images/logo.png HTTP/1.1" 404 6283
+INFO 2023-09-06 09:37:46,904 basehttp 212 "GET /detail/1/ HTTP/1.1" 200 107800
+INFO 2023-09-06 09:38:11,461 basehttp 212 "GET /index/ HTTP/1.1" 200 126492
+WARNING 2023-09-06 09:38:11,600 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-06 09:38:11,889 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-06 09:38:11,891 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 09:38:11,892 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6277
+WARNING 2023-09-06 09:38:22,589 log 241 Not Found: /list.html
+WARNING 2023-09-06 09:38:22,591 basehttp 212 "GET /list.html?cat=115 HTTP/1.1" 404 6273

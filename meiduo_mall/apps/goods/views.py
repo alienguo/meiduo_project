@@ -17,7 +17,7 @@ from django.shortcuts import render
 'Storage IP': '192.168.33.128'}
 """
 from django.views import View
-from utils.goods import get_categories
+from utils.goods import get_categories, get_goods_specs
 from apps.contents.models import ContentCategory
 
 
@@ -139,3 +139,37 @@ class SKUSearchView(SearchView):
             })
         # 拼接参数, 返回
         return JsonResponse(data_list, safe=False)
+
+
+"""
+需求：
+    详情页面
+    
+    1.分类数据
+    2.面包屑
+    3.SKU信息
+    4.规格信息
+"""
+
+class DetailView(View):
+
+    def get(self, request, sku_id):
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            # return render(request, '404.html')
+            pass
+        # 1.分类数据
+        categories = get_categories()
+        # 2.面包屑
+        breadcrumb = get_breadcrumb(sku.category)
+        # 3.SKU信息
+        # 4.规格信息
+        goods_space = get_goods_specs(sku)
+
+        context = {
+            'categories': categories,
+            'breadcrumb': breadcrumb,
+            'sku': sku,
+        }
+        return render(request, 'detail.html', context)
