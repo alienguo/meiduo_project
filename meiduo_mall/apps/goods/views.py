@@ -173,3 +173,36 @@ class DetailView(View):
             'sku': sku,
         }
         return render(request, 'detail.html', context)
+
+
+class DetailVisitView(View):
+    """详情页分类商品访问量"""
+
+    def post(self, request, category_id):
+        try:
+            # 1.获取当前商品
+            category = GoodsCategory.objects.get(id=category_id)
+        except Exception as e:
+            return JsonResponse({'code': 400, 'errmsg': '缺少必传参数'})
+
+        # 2.查询日期数据
+        from datetime import date
+        # 获取当天日期
+        today_date = date.today()
+
+        from apps.goods.models import GoodsVisitCount
+        try:
+            # 3.如果有当天商品分类的数据  就累加数量
+            count_data = category.goodsvisitcount_set.get(date=today_date)
+        except:
+            # 4. 没有, 就新建之后在增加
+            count_data = GoodsVisitCount()
+
+        try:
+            count_data.count += 1
+            count_data.category = category
+            count_data.save()
+        except Exception as e:
+            return JsonResponse({'code': 400, 'errmsg': '新增失败'})
+
+        return JsonResponse({'code': 0, 'errmsg': 'OK'})
