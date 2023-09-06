@@ -108,3 +108,44 @@ class CartsView(View):
             })
         # 6.返回响应
         return JsonResponse({'code': 0, 'errmsg': 'OK', 'cart_skus': cart_skus})
+
+    def put(self, request):
+        user = request.user
+        data = json.loads(request.body.decode())
+        sku_id = data.get('sku_id')
+        count = data.get('count')
+        selected = data.get('selected')
+
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return JsonResponse({'code': 400, 'errmsg': '没有此商品'})
+
+        try:
+            count = int(count)
+        except Exception:
+            count = 1
+
+        if user.is_authenticated:
+            redis_cli = get_redis_connection('carts')
+            redis_cli.hest('carts_%s' % user.id, sku_id, count)
+            if selected:
+                redis_cli.sadd('selected_%s' % user.id, sku_id)
+            else:
+                redis_cli.srem('selected_%s' % user.id, sku_id)
+            return JsonResponse({'code': 0, 'errmsg': 'ok', 'cart_sku': {'count': count, 'selected': selected}})
+        else:
+            cookie_carts = request.COOKIES.get('carts')
+            if cookie_carts:
+                carts = pickle.loads(base64.b64decode(cookie_carts))
+            else:
+                carts = {}
+            if sku_id in carts:
+                carts[sku_id] = {
+                    'count': count,
+                    'selected': selected
+                }
+            new_carts = base64.b64encode(pickle.dumps(carts))
+            response = JsonResponse({'code': 0, 'errmsg': 'ok', 'cart_sku': {'count': count, 'selected': selected}})
+            response.set_cookie('carts', new_carts.decode(), max_age=3600*24*14)
+            return response

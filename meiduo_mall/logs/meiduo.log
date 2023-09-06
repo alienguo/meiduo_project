@@ -3832,3 +3832,294 @@ INFO 2023-09-06 20:40:47,761 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200
 WARNING 2023-09-06 20:40:52,445 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
 WARNING 2023-09-06 20:40:52,565 log 241 Not Found: /carts/simple/
 WARNING 2023-09-06 20:40:52,566 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 20:49:13,204 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 20:49:15,728 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:00:29,816 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 21:00:31,922 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:17:32,822 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 21:17:34,484 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:24:42,911 autoreload 668 Watching for file changes with StatReloader
+WARNING 2023-09-06 21:24:54,859 log 241 Not Found: /cart.html
+WARNING 2023-09-06 21:24:54,859 basehttp 212 "GET /cart.html HTTP/1.1" 404 6762
+INFO 2023-09-06 21:24:57,711 basehttp 212 "GET /carts/ HTTP/1.1" 200 375
+INFO 2023-09-06 21:24:59,343 basehttp 212 "OPTIONS /carts/ HTTP/1.1" 200 0
+ERROR 2023-09-06 21:24:59,401 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:24:59,403 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:00,826 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:00,827 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:01,449 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:01,450 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:02,559 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:02,560 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:04,005 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:04,006 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:04,985 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:04,987 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:05,228 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:05,229 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:05,412 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:05,413 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:05,673 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:05,673 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:06,161 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:06,164 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:06,521 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:06,522 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:06,717 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:06,718 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+INFO 2023-09-06 21:25:17,115 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:25:21,847 basehttp 212 "GET /carts/ HTTP/1.1" 200 375
+ERROR 2023-09-06 21:25:24,232 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:24,232 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:25,507 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:25,508 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:25,759 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:25,760 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:25,961 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:25,962 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:26,841 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:26,842 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+ERROR 2023-09-06 21:25:30,045 log 241 Internal Server Error: /carts/
+Traceback (most recent call last):
+  File "D:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python310\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py", line 114, in put
+    data = json.loads(request.body.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+ERROR 2023-09-06 21:25:30,046 basehttp 212 "PUT /carts/ HTTP/1.1" 500 77812
+INFO 2023-09-06 21:26:07,085 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:26:10,691 basehttp 212 "GET /carts/ HTTP/1.1" 200 375
+INFO 2023-09-06 21:26:11,785 basehttp 212 "PUT /carts/ HTTP/1.1" 200 73
+INFO 2023-09-06 21:26:14,503 basehttp 212 "PUT /carts/ HTTP/1.1" 200 73
+INFO 2023-09-06 21:26:15,942 basehttp 212 "PUT /carts/ HTTP/1.1" 200 73
+INFO 2023-09-06 21:26:16,352 basehttp 212 "PUT /carts/ HTTP/1.1" 200 73
+INFO 2023-09-06 21:26:17,283 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-06 21:26:17,823 basehttp 212 "PUT /carts/ HTTP/1.1" 200 71
+INFO 2023-09-06 21:27:05,518 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 21:27:16,189 basehttp 212 "PUT /carts/ HTTP/1.1" 200 71
+INFO 2023-09-06 21:28:17,568 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-06 21:28:26,544 basehttp 212 "PUT /carts/ HTTP/1.1" 200 73
+INFO 2023-09-06 21:30:23,354 basehttp 212 "GET /carts/ HTTP/1.1" 200 378
+INFO 2023-09-06 21:30:31,893 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:30:54,062 basehttp 212 "GET /carts/ HTTP/1.1" 200 378
+INFO 2023-09-06 21:31:41,713 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:31:54,132 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:31:59,161 basehttp 212 "PUT /carts/ HTTP/1.1" 200 76
+INFO 2023-09-06 21:32:02,839 basehttp 212 "PUT /carts/ HTTP/1.1" 200 76
+INFO 2023-09-06 21:32:02,916 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:32:03,100 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:32:03,431 basehttp 212 "PUT /carts/ HTTP/1.1" 200 75
+INFO 2023-09-06 21:32:04,748 basehttp 212 "PUT /carts/ HTTP/1.1" 200 74
+WARNING 2023-09-06 21:32:07,173 base 146 Method Not Allowed (DELETE): /carts/
+WARNING 2023-09-06 21:32:07,175 log 241 Method Not Allowed: /carts/
+WARNING 2023-09-06 21:32:07,177 basehttp 212 "DELETE /carts/ HTTP/1.1" 405 0
