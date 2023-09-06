@@ -6,6 +6,7 @@ from django.shortcuts import render
 import re
 import json
 from django.views import View
+from django_redis import get_redis_connection
 
 from apps.goods.models import SKU
 from apps.users.models import User, Address
@@ -521,7 +522,6 @@ class UserBrowseHistory(LoginRequiredJSONMixin, View):
             sku = SKU.objects.get(id=sku_id)
         except SKU.DoesNotExist:
             return JsonResponse({'code': 400, 'errmsg': '没有此商品'})
-        from django_redis import get_redis_connection
         redis_cli = get_redis_connection('history')
         pl = redis_cli.pipeline()
         user_id = request.user.id
@@ -537,3 +537,22 @@ class UserBrowseHistory(LoginRequiredJSONMixin, View):
 
         # 响应结果
         return JsonResponse({'code': 0, 'errmsg': 'OK'})
+
+    def get(self, request):
+        """获取用户浏览记录"""
+        # 获取Redis存储的sku_id列表信息
+        redis_conn = get_redis_connection('history')
+        sku_ids = redis_conn.lrange('history_%s' % request.user.id, 0, -1)
+
+        # 根据sku_ids列表数据，查询出商品sku信息
+        skus = []
+        for sku_id in sku_ids:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'default_image_url': sku.default_image.url,
+                'price': sku.price
+            })
+
+        return JsonResponse({'code': 0, 'errmsg': 'OK', 'skus': skus})

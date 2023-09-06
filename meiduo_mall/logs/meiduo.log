@@ -3668,3 +3668,47 @@ WARNING 2023-09-06 10:58:24,491 basehttp 212 "POST /browse_histories/ HTTP/1.1" 
 WARNING 2023-09-06 10:58:24,494 log 241 Not Found: /carts/simple/
 WARNING 2023-09-06 10:58:24,496 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6457
 INFO 2023-09-06 10:58:24,501 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:49:33,317 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 14:49:39,113 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1416
+WARNING 2023-09-06 14:49:39,240 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:49:39,242 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+INFO 2023-09-06 14:49:39,242 basehttp 212 "GET /hot/115/ HTTP/1.1" 200 576
+INFO 2023-09-06 14:49:40,206 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+INFO 2023-09-06 14:49:40,208 basehttp 212 "GET /browse_histories/ HTTP/1.1" 200 39
+INFO 2023-09-06 14:49:44,406 basehttp 212 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2023-09-06 14:49:44,422 basehttp 212 "OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+WARNING 2023-09-06 14:49:44,429 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:49:44,431 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+INFO 2023-09-06 14:49:44,460 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:49:44,526 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:49:46,666 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:49:46,668 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:49:46,670 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:49:46,671 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+INFO 2023-09-06 14:49:48,465 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:49:48,475 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 14:49:48,477 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:49:48,477 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+WARNING 2023-09-06 14:49:52,323 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:49:52,324 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+INFO 2023-09-06 14:49:52,935 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+INFO 2023-09-06 14:49:52,942 basehttp 212 "GET /browse_histories/ HTTP/1.1" 200 876
+INFO 2023-09-06 14:50:10,854 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:50:10,859 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 14:50:10,860 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:50:10,861 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+WARNING 2023-09-06 14:50:42,312 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:50:42,314 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+INFO 2023-09-06 14:50:42,316 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:50:42,316 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+INFO 2023-09-06 14:50:57,623 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:50:57,625 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 14:50:57,627 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 14:50:57,627 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
+WARNING 2023-09-06 14:51:06,901 log 241 Not Found: /
+WARNING 2023-09-06 14:51:06,902 basehttp 212 "GET / HTTP/1.1" 404 6564
+INFO 2023-09-06 14:51:10,853 basehttp 212 "GET /index/ HTTP/1.1" 200 126492
+WARNING 2023-09-06 14:51:10,967 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-06 14:51:11,246 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-06 14:51:11,251 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 14:51:11,253 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6621
