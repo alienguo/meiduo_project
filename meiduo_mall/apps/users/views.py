@@ -6,6 +6,8 @@ from django.shortcuts import render
 import re
 import json
 from django.views import View
+
+from apps.goods.models import SKU
 from apps.users.models import User, Address
 from django.http import JsonResponse
 
@@ -508,3 +510,30 @@ class ChangePasswordView(LoginRequiredMixin, View):
 
         # # 响应密码修改结果：重定向到登录界面
         return response
+
+
+class UserBrowseHistory(LoginRequiredJSONMixin, View):
+
+    def post(self, request):
+        data = json.loads(request.body.decode())
+        sku_id = data.get('sku_id')
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return JsonResponse({'code': 400, 'errmsg': '没有此商品'})
+        from django_redis import get_redis_connection
+        redis_cli = get_redis_connection('history')
+        pl = redis_cli.pipeline()
+        user_id = request.user.id
+
+        # 先去重
+        pl.lrem('history_%s' % user_id, 0, sku_id)
+        # 再存储
+        pl.lpush('history_%s' % user_id, sku_id)
+        # 最后截取
+        pl.ltrim('history_%s' % user_id, 0, 4)
+        # 执行管道
+        pl.execute()
+
+        # 响应结果
+        return JsonResponse({'code': 0, 'errmsg': 'OK'})
