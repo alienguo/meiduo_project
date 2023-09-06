@@ -501,11 +501,11 @@ class ChangePasswordView(LoginRequiredMixin, View):
             request.user.set_password(new_password)
             request.user.save()
         except Exception as e:
-            return JsonResponse({'code':400,'errmsg':'修改密码失败'})
+            return JsonResponse({'code': 400, 'errmsg': '修改密码失败'})
 
         # 清理状态保持信息
         logout(request)
-        response = JsonResponse({'code':0,'errmsg':'ok'})
+        response = JsonResponse({'code': 0, 'errmsg': 'ok'})
 
         response.delete_cookie('username')
 

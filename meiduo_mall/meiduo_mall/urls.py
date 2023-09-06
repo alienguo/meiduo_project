@@ -33,4 +33,5 @@ urlpatterns = [
     path('', include('apps.areas.urls')),
     path('', include('apps.goods.urls')),
     path('', include('apps.contents.urls')),
+    path('', include('apps.carts.urls')),
 ]
