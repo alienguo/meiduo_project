@@ -3790,3 +3790,45 @@ INFO 2023-09-06 18:00:58,468 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-06 18:01:00,711 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-06 18:03:25,316 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
 INFO 2023-09-06 18:03:27,047 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 18:15:56,002 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 18:15:57,764 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 18:19:32,366 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 18:19:39,031 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+INFO 2023-09-06 18:19:39,044 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 18:19:39,074 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 18:19:39,075 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 18:19:57,648 basehttp 212 "GET /carts/ HTTP/1.1" 200 375
+WARNING 2023-09-06 18:20:04,576 base 146 Method Not Allowed (PUT): /carts/
+WARNING 2023-09-06 18:20:04,577 log 241 Method Not Allowed: /carts/
+WARNING 2023-09-06 18:20:04,578 basehttp 212 "PUT /carts/ HTTP/1.1" 405 0
+WARNING 2023-09-06 18:20:04,983 base 146 Method Not Allowed (PUT): /carts/
+WARNING 2023-09-06 18:20:04,984 log 241 Method Not Allowed: /carts/
+WARNING 2023-09-06 18:20:04,985 basehttp 212 "PUT /carts/ HTTP/1.1" 405 0
+WARNING 2023-09-06 18:20:05,502 base 146 Method Not Allowed (PUT): /carts/
+WARNING 2023-09-06 18:20:05,503 log 241 Method Not Allowed: /carts/
+WARNING 2023-09-06 18:20:05,504 basehttp 212 "PUT /carts/ HTTP/1.1" 405 0
+WARNING 2023-09-06 18:20:06,092 base 146 Method Not Allowed (PUT): /carts/
+WARNING 2023-09-06 18:20:06,094 log 241 Method Not Allowed: /carts/
+WARNING 2023-09-06 18:20:06,094 basehttp 212 "PUT /carts/ HTTP/1.1" 405 0
+WARNING 2023-09-06 18:20:07,154 log 241 Not Found: /orders/settlement/
+WARNING 2023-09-06 18:20:07,156 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 404 6789
+WARNING 2023-09-06 18:22:14,671 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 18:22:14,673 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 18:22:20,192 basehttp 212 "GET /hot/115/ HTTP/1.1" 200 576
+INFO 2023-09-06 18:22:20,193 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1546
+WARNING 2023-09-06 18:22:20,207 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 18:22:20,208 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 18:22:21,299 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+WARNING 2023-09-06 18:22:21,331 log 241 Not Found: /carts/simple/
+INFO 2023-09-06 18:22:21,333 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 18:22:21,334 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 20:40:46,460 basehttp 212 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1684
+INFO 2023-09-06 20:40:47,665 basehttp 212 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2023-09-06 20:40:47,693 basehttp 212 "OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+INFO 2023-09-06 20:40:47,730 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 51
+WARNING 2023-09-06 20:40:47,747 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 20:40:47,748 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774
+INFO 2023-09-06 20:40:47,761 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+WARNING 2023-09-06 20:40:52,445 basehttp 212 "GET /static/images/logo.png HTTP/1.1" 404 1810
+WARNING 2023-09-06 20:40:52,565 log 241 Not Found: /carts/simple/
+WARNING 2023-09-06 20:40:52,566 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6774

@@ -67,3 +67,44 @@ class CartsView(View):
             response.set_cookie('carts', base64encode.decode(), max_age=3600*24*12)
             #   5.5 返回响应
             return response
+
+    def get(self, request):
+        # 1.判断用户是否登录
+        user = request.user
+        if user.is_authenticated:
+            # 2.登录用户查询redis
+            redis_cli = get_redis_connection('carts')
+            sku_id_count = redis_cli.hgetall('carts_%s' % user.id)
+            selected_ids = redis_cli.smembers('selected_%s' % user.id)
+            carts = {}
+            for sku_id, count in sku_id_count.items():
+                carts[sku_id] = {
+                    'count': count,
+                    'selected': sku_id in selected_ids
+                }
+        else:
+            # 3.未登录用户查询cookie
+            carts = request.COOKIES.get('carts')
+            cookie_carts = request.COOKIES.get('carts')
+            if cookie_carts:
+                carts = pickle.loads(base64.b64decode(cookie_carts))
+            else:
+                carts = {}
+
+        # 4.根据商品id查询商品信息
+        sku_ids = carts.keys()
+        skus = SKU.objects.filter(id__in=sku_ids)
+        # 5.将对象数据转化为字典数据
+        cart_skus = []
+        for sku in skus:
+            cart_skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'count': carts.get(sku.id).get('count'),
+                'selected': str(carts.get(sku.id).get('selected')),  # 将True，转'True'，方便json解析
+                'default_image_url': sku.default_image.url,
+                'price': str(sku.price),  # 从Decimal('10.2')中取出'10.2'，方便json解析
+                'amount': str(sku.price * carts.get(sku.id).get('count'))
+            })
+        # 6.返回响应
+        return JsonResponse({'code': 0, 'errmsg': 'OK', 'cart_skus': cart_skus})
