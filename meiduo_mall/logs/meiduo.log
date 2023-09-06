@@ -5006,3 +5006,15 @@ INFO 2023-09-06 23:39:42,991 basehttp 212 "POST /login/ HTTP/1.1" 200 27
 WARNING 2023-09-06 23:39:43,289 log 241 Not Found: /carts/simple/
 WARNING 2023-09-06 23:39:43,290 basehttp 212 "GET /carts/simple/ HTTP/1.1" 404 6937
 INFO 2023-09-06 23:39:46,159 basehttp 212 "GET /carts/ HTTP/1.1" 200 647
+INFO 2023-09-06 23:44:22,864 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 23:44:24,592 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:44:42,345 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 23:44:44,036 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:44:54,411 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 23:44:56,090 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:45:13,644 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 23:45:15,268 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:45:31,838 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\carts\views.py changed, reloading.
+INFO 2023-09-06 23:45:33,504 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:46:50,085 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-06 23:46:57,501 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
