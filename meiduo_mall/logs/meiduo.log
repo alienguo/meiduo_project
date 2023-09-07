@@ -5076,3 +5076,38 @@ INFO 2023-09-07 10:14:24,942 basehttp 212 "OPTIONS /carts/ HTTP/1.1" 200 0
 INFO 2023-09-07 10:14:24,954 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
 INFO 2023-09-07 10:14:25,820 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 731
 INFO 2023-09-07 10:14:32,356 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 51
+INFO 2023-09-07 14:36:20,657 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 14:36:23,525 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 14:37:07,814 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 14:37:09,439 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 14:37:52,792 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 14:37:54,429 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 14:38:36,794 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 14:38:38,491 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 14:40:09,865 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 731
+INFO 2023-09-07 14:40:14,828 basehttp 212 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+INFO 2023-09-07 14:40:14,860 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 51
+INFO 2023-09-07 14:40:42,798 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 731
+INFO 2023-09-07 14:40:45,446 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 51
+INFO 2023-09-07 14:40:55,310 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
+INFO 2023-09-07 14:40:58,146 basehttp 212 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1546
+INFO 2023-09-07 14:40:58,148 basehttp 212 "GET /hot/115/ HTTP/1.1" 200 576
+INFO 2023-09-07 14:40:58,152 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
+INFO 2023-09-07 14:41:02,021 basehttp 212 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2023-09-07 14:41:02,034 basehttp 212 "OPTIONS /detail/visit/115/ HTTP/1.1" 200 0
+INFO 2023-09-07 14:41:02,053 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
+INFO 2023-09-07 14:41:02,065 basehttp 212 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2023-09-07 14:41:02,070 basehttp 212 "POST /detail/visit/115/ HTTP/1.1" 200 27
+INFO 2023-09-07 14:41:03,369 basehttp 212 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2023-09-07 14:41:03,382 basehttp 212 "POST /carts/ HTTP/1.1" 200 27
+INFO 2023-09-07 14:41:08,165 basehttp 212 "GET /carts/ HTTP/1.1" 200 981
+INFO 2023-09-07 14:41:10,729 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-07 14:41:12,863 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-07 14:41:14,429 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 731
+INFO 2023-09-07 14:41:16,768 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 88
+INFO 2023-09-07 14:41:30,703 basehttp 212 "GET /info/ HTTP/1.1" 200 140
+INFO 2023-09-07 14:41:30,724 basehttp 212 "GET /browse_histories/ HTTP/1.1" 200 1434
+INFO 2023-09-07 16:11:08,062 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 16:11:09,859 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 16:13:04,268 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 16:13:05,935 autoreload 668 Watching for file changes with StatReloader
