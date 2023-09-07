@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'apps.contents',
     'apps.carts',
     'apps.orders',
+    'apps.pay',
     'corsheaders',  # CORS
     'haystack',
     'django_crontab',  # 定时任务
@@ -305,3 +306,11 @@ CRONJOBS = [
 ]
 # 解决crontab的中文问题
 CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
+
+# 支付宝支付相关
+ALIPAY_APPID = '9021000126667383'
+ALIPAY_DEBUG = True
+ALIPAY_URL = 'https://openapi-sandbox.dl.alipaydev.com/gateway.do'
+ALIPAY_RETURN_URL = 'http://www.meiduo.site:8080/pay_success.html'
+APP_PRIVATE_KEY_PATH = os.path.join(BASE_DIR, 'apps/pay/key/app_private_key.pem')
+ALIPAY_PUBLIC_KEY_PATH = os.path.join(BASE_DIR, 'apps/pay/key/alipay_public_key.pem')
