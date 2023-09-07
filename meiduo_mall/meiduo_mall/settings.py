@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'apps.goods',
     'apps.contents',
     'apps.carts',
+    'apps.orders',
     'corsheaders',  # CORS
     'haystack',
     'django_crontab',  # 定时任务

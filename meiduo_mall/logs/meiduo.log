@@ -5018,3 +5018,38 @@ INFO 2023-09-06 23:45:31,838 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-06 23:45:33,504 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-06 23:46:50,085 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-06 23:46:57,501 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
+INFO 2023-09-07 08:18:59,403 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:19:03,666 basehttp 212 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2023-09-07 08:19:04,023 basehttp 212 "POST /login/ HTTP/1.1" 200 27
+INFO 2023-09-07 08:19:04,260 basehttp 212 "GET /carts/simple/ HTTP/1.1" 200 523
+INFO 2023-09-07 08:19:05,637 basehttp 212 "GET /carts/ HTTP/1.1" 200 647
+WARNING 2023-09-07 08:19:07,440 log 241 Not Found: /orders/settlement/
+WARNING 2023-09-07 08:19:07,440 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 404 7112
+INFO 2023-09-07 08:19:12,000 basehttp 212 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2023-09-07 08:19:12,004 basehttp 212 "GET /addresses/ HTTP/1.1" 200 474
+INFO 2023-09-07 08:21:57,226 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2023-09-07 08:21:58,305 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:22:40,065 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\urls.py changed, reloading.
+INFO 2023-09-07 08:22:41,130 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:23:24,932 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\urls.py changed, reloading.
+INFO 2023-09-07 08:23:25,908 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:29:57,959 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\urls.py changed, reloading.
+INFO 2023-09-07 08:29:59,259 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:39:58,602 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:39:59,614 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:45:38,254 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:45:39,398 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:46:38,146 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:46:39,180 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:47:37,966 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:47:39,049 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:47:50,050 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:49:19,864 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:50:21,742 basehttp 81 - Broken pipe from ('127.0.0.1', 55071)
+INFO 2023-09-07 08:50:21,763 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 941
+INFO 2023-09-07 08:51:57,832 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:51:59,864 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 956
+INFO 2023-09-07 08:53:49,855 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:53:50,874 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 08:58:19,670 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 08:58:20,826 autoreload 668 Watching for file changes with StatReloader
