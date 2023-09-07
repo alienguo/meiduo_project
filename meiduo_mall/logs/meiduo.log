@@ -5053,3 +5053,26 @@ INFO 2023-09-07 08:53:49,855 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-07 08:53:50,874 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-07 08:58:19,670 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
 INFO 2023-09-07 08:58:20,826 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 09:19:16,641 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\models.py changed, reloading.
+INFO 2023-09-07 09:19:17,668 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 09:23:03,571 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\urls.py changed, reloading.
+INFO 2023-09-07 09:23:05,122 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 09:39:24,555 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\urls.py changed, reloading.
+INFO 2023-09-07 09:39:25,695 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:04:59,650 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 10:05:00,693 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:10:27,852 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 10:10:29,096 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:10:32,980 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:10:36,671 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:10:40,830 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 961
+INFO 2023-09-07 10:10:42,605 basehttp 212 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+INFO 2023-09-07 10:11:20,147 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:14:01,371 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 10:14:03,076 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 10:14:08,753 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 51
+INFO 2023-09-07 10:14:23,573 basehttp 212 "GET /carts/ HTTP/1.1" 200 647
+INFO 2023-09-07 10:14:24,942 basehttp 212 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2023-09-07 10:14:24,954 basehttp 212 "PUT /carts/ HTTP/1.1" 200 72
+INFO 2023-09-07 10:14:25,820 basehttp 212 "GET /orders/settlement/ HTTP/1.1" 200 731
+INFO 2023-09-07 10:14:32,356 basehttp 212 "POST /orders/commit/ HTTP/1.1" 200 51
