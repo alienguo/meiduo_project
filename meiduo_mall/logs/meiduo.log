@@ -5111,3 +5111,11 @@ INFO 2023-09-07 16:11:08,062 autoreload 266 E:\PythonProject\meiduo_project\meid
 INFO 2023-09-07 16:11:09,859 autoreload 668 Watching for file changes with StatReloader
 INFO 2023-09-07 16:13:04,268 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
 INFO 2023-09-07 16:13:05,935 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 19:24:38,075 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 19:24:39,930 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 19:24:41,752 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 19:24:43,493 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 19:24:46,347 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 19:24:48,040 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-09-07 19:24:49,866 autoreload 266 E:\PythonProject\meiduo_project\meiduo_mall\apps\orders\views.py changed, reloading.
+INFO 2023-09-07 19:24:51,448 autoreload 668 Watching for file changes with StatReloader
